@@ -108,7 +108,7 @@ a:not([href]):not([tabindex]):hover {
   color: rgb(53, 218, 172);
 }
 .section {
-  padding: 80px 0;
+  padding: 70px 0;
 }
 .section-header {
   color: #fff;
@@ -123,9 +123,17 @@ a:not([href]):not([tabindex]):hover {
   color: #0d3559;
   position: relative;
 }
-.section-header .section-title span {
+.section-title span {
   color: rgb(53, 218, 172);
 }
+
+div.container.center.mb-5.py-2 .row span {
+  color: rgb(53, 218, 172);
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
 .section-header .section-subtitle {
   margin-top: 15px;
   color: #333;
@@ -136,7 +144,7 @@ a:not([href]):not([tabindex]):hover {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #346afe;
+  border-top: 1px solid #333;
   margin-top: 15px;
 }
 .section-header .lines:before {
@@ -162,17 +170,17 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 .menu-bg {
-  background-color: #fff!important;
+  background-color: rgb(53, 218, 172)!important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
-  padding: 3px;
+  padding: 9px;
 }
 .menu-bg .menu-button {
   top: 0;
 }
 .menu-bg .menu-button:hover {
   cursor: pointer;
-  color: rgb(53, 218, 172);
+  color: #333;
 }
 .menu-bg .logo-menu a {
   color: rgb(53, 218, 172);
@@ -350,50 +358,17 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    About Section Style
    ========================================================================== */
-#about {
-  position: relative;
-  background: #f2f2f2;
-}
-.item-boxes {
-  text-align: center;
-  padding: 15px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-  webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-.item-boxes .icon {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  border: 1px solid rgb(53, 218, 172);
-  display: inline-block;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  webkit-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.item-boxes .icon i {
-  font-size: 30px;
-  line-height: 60px;
-  color: rgb(53, 218, 172);
-}
-.item-boxes h4 {
-  font-size: 20px;
+#why-Coopt div div h4{
   font-weight: 600;
-  margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 22px;
 }
-.item-boxes:hover {
-  background: #fff;
-  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
-}
-#services {
+
+#why-Coopt {
   position: relative;
   background: #f2f2f2;
 }
+
 /* ==========================================================================
    Features Section Style
    ========================================================================== */
