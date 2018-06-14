@@ -316,7 +316,10 @@ div.container.center.mb-5.py-2 .row span {
 #header-area {
   overflow: hidden;
   position: relative;
-  background-image: url(../img/photo/header-background.jpg)
+  background-image: url(../img/photo/header-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+background-attachment: fixed;
 }
 #header-area .contents {
   padding: 200px 0 300px;
