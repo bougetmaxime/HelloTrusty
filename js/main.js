@@ -95,7 +95,7 @@
       });
 
       $(window).on('scroll', function() {
-          if ($(window).scrollTop() > 200) {
+          if ($(window).scrollTop() > 820) {
               $('.fixed-top').addClass('menu-bg');
           } else {
               $('.fixed-top').removeClass('menu-bg');
