@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 165 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Logo-contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-contact" transform="translate(9.000000, 2.000000)">
+            <text id="Trusty" fill="#FFFFFF" font-family="AvenirNext-Bold, Avenir Next" font-size="36" font-weight="bold">
+                <tspan x="0" y="36">Trusty</tspan>
+            </text>
+            <text id="X" fill="#FFFFFF" font-family="SFUIText-Regular, SF UI Text" font-size="30" font-weight="normal">
+                <tspan x="124" y="37">X</tspan>
+            </text>
+            <text id="." fill="#55E1C1" font-family="AvenirNext-Bold, Avenir Next" font-size="36" font-weight="bold">
+                <tspan x="105" y="37">.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

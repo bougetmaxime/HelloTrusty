@@ -1,4 +1,4 @@
-$("#contactForm").validator().on("submit", function (event) {
+$("#subscrite-form").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         // handle the invalid form...
         formError();

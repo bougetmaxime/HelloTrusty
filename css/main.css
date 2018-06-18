@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,600');
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -310,7 +310,7 @@ div.container.center.mb-5.py-2 .row span {
   font-weight: bold;
 }
 /* ==========================================================================
-   About Section Style
+   why-Coopt Section Style
    ========================================================================== */
 #why-Coopt div div h4{
   font-weight: 600;
@@ -322,6 +322,17 @@ div.container.center.mb-5.py-2 .row span {
   position: relative;
   background: #f2f2f2;
 }
+#why-Coopt .item-boxes{
+    flex: 0 0 23%;
+    max-width: 23%;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1), 0 2px 9px 0 rgba(62, 57, 107, 0.1);
+    border-color: rgba(62, 57, 107, 0.1);
+}
+
+
 /* ==========================================================================
    Features Section Style
    ========================================================================== */
@@ -333,6 +344,11 @@ div.container.center.mb-5.py-2 .row span {
 #section-features .row {
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+#section-features .row .row{
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 #section-features h3 {
   font-family: 'Lato', sans-serif;
@@ -352,6 +368,110 @@ div.container.center.mb-5.py-2 .row span {
 #section-features span{
   color: rgb(53, 218, 172);
 }
+
+
+/* ==========================================================================
+    Subscribe Style
+    ========================================================================== */
+#subscribe{
+  background:url(../img/photo/background-contact-picture.jpg);
+  position: relative;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#subscribe .section-header {
+  margin-bottom: 0px;
+}
+#subscribe h2 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+#subscribe .row {
+  margin-bottom: -40px;
+  margin-top: -10px;
+}
+
+#subscribe .col {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+
+#subscribe form input {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #999999;
+  height: 50px;
+  width: 100%;
+  position: center;
+}
+#subscribe form input:focus {
+  border: 1px solid rgb(53, 218, 172);
+}
+#subscribe .sub_btn {
+  border: none;
+  line-height: 44px;
+  margin: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  min-width: 150px;
+  color: #fff;
+  top: 0;
+  height: 50px;
+  background: rgb(53, 218, 172);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+}
+.form-control {
+  width: 100%;
+  padding: 18px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: 'Lato', sans-serif;
+}
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+
+/* ==========================================================================
+   Testimonial Section Style
+   ========================================================================== */
+#testimonial {
+  background: #f2f2f2;
+}
+.testimonial-item {
+  text-align: center;
+}
+.testimonial-item img {
+  width: 250px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
 
 /* ==========================================================================
    Features Section Style
@@ -426,82 +546,7 @@ div.container.center.mb-5.py-2 .row span {
 #features .show-box img {
   width: 100%;
 }
-/* ==========================================================================
-   Screenshots Section Start
-   ========================================================================== */
-#screenshots {
-  background: #f2f2f2;
-}
-.shot-item {
-  margin-right: 15px;
-  padding: 8px;
-  border-radius: 4px;
-  background: #fff;
-}
-.shot-item img {
-  width: 100%;
-}
-.shot-item .overlay {
-  display: block;
-  position: relative;
-}
-.shot-item .overlay:before,
-.shot-item .overlay:after {
-  position: absolute;
-  content: "";
-  height: 30%;
-  width: 30%;
-  background: #346afe;
-  opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-.shot-item .overlay:before {
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.shot-item .overlay:after {
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-}
-.shot-item:hover .overlay:before {
-  height: 50%;
-  width: 100%;
-  opacity: 0.8;
-}
-.shot-item:hover .overlay:after {
-  height: 50%;
-  width: 100%;
-  opacity: 0.8;
-}
-.overlay .item-icon {
-  height: 48px;
-  width: 48px;
-  line-height: 48px;
-  color: #fff;
-  left: 50%;
-  margin-left: -24px;
-  margin-top: -24px;
-  top: 50%;
-  position: absolute;
-  z-index: 2;
-  visibility: hidden;
-  opacity: 0;
-  cursor: pointer;
-  text-align: center;
-  font-size: 24px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-.shot-item:hover .item-icon {
-  visibility: visible;
-  opacity: 1;
-}
+
 
 /* ==========================================================================
    Video promo Style
@@ -629,44 +674,7 @@ div.container.center.mb-5.py-2 .row span {
   font-size: 20px;
   color: #fff;
 }
-/* ==========================================================================
-   Testimonial Section Style
-   ========================================================================== */
-#testimonial {
-  background: #f2f2f2;
-}
-.testimonial-item {
-  text-align: center;
-}
-.testimonial-item img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-.testimonial-item .testimonial-text h3 {
-  font-size: 16px;
-  font-weight: 100;
-  text-transform: uppercase;
-}
-.testimonial-item .testimonial-text span {
-  font-size: 15px;
-  color: #999;
-}
-.testimonial-item .testimonial-text p {
-  font-size: 14px;
-  font-weight: 400;
-  padding: 20px 10px 20px 10px;
-  letter-spacing: 1px;
-  margin: 0;
-  line-height: 1.5;
-  color: #999;
-}
-.owl-theme .owl-controls .owl-page span {
-  background: rgb(53, 218, 172);
-}
-.owl-theme .owl-controls {
-  margin-top: 20px;
-}
+
 /* ==========================================================================
    Download 
    ========================================================================== */
@@ -763,22 +771,7 @@ div.container.center.mb-5.py-2 .row span {
 /* ==========================================================================
     Contact Us
     ========================================================================== */
-.form-control {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 18px;
-  color: #fff;
-  font-size: 14px;
-  border-radius: 4px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
-}
-.form-control:focus {
-  box-shadow: none;
-  outline: none;
-}
+
 .btn.disabled,
 .btn:disabled {
   opacity: 1;
@@ -801,46 +794,7 @@ div.container.center.mb-5.py-2 .row span {
 .list-unstyled li {
   color: #d9534f;
 }
-/* ==========================================================================
-    Subscribe Style
-    ========================================================================== */
-#subscribe{
-  background:#f2f2f2;
-}
-#subscribe form input {
-  background: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: none;
-  color: #999999;
-  height: 50px;
-  padding: 0 20px;
-  width: 100%;
-}
-#subscribe form input:focus {
-  border: 1px solid rgb(53, 218, 172);
-}
-#subscribe .sub_btn {
-  border: none;
-  line-height: 44px;
-  margin: 0;
-  font-size: 15px;
-  text-transform: uppercase;
-  position: absolute;
-  right: 0;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  min-width: 150px;
-  color: #fff;
-  top: 0;
-  height: 50px;
-  background: rgb(53, 218, 172);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
-  cursor: pointer;
-}
+
 /* ==========================================================================
    Footer Style
    ========================================================================== */
