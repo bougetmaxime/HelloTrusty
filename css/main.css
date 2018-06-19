@@ -42,7 +42,7 @@ a {
 }
 .btn-common {
   border: 2px solid rgb(53, 218, 172);
-  background-color: rgb(53, 218, 172);
+  background-color: rgba(53, 218, 172,0.9);
   position: relative;
   z-index: 1;
   border-radius: 4px;
@@ -428,7 +428,8 @@ div.container.center.mb-5.py-2 .row span {
   border-radius: 5px;
   min-width: 150px;
   color: #fff;
-  background: rgb(53, 218, 172);
+  border: 2px solid rgb(53, 218, 172);
+  background: rgba(53, 218, 172,0.9);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -441,6 +442,15 @@ div.container.center.mb-5.py-2 .row span {
   font-size: 27px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+#subscribe .sub_btn:hover {
+  color: rgb(53, 218, 172);
+  background-color: transparent;
+  border: 2px solid rgb(53, 218, 172);
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 
