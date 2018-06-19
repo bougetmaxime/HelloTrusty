@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="20%" height="20%" viewBox="0 0 2820 2955" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100%" height="100%" viewBox="0 0 2682 2955" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>Slice</title>
     <desc>Created with Sketch.</desc>
@@ -116,7 +116,8 @@
             </feMerge>
         </filter>
         <path d="M0,0 L600,0 L600,170 C600,189.329966 584.329966,205 565,205 L0,205 L0,0 Z" id="path-18"></path>
-        <filter x="-2.5%" y="-25.5%" width="104.5%" height="158.0%" filterUnits="objectBoundingBox" id="filter-19">
+        <rect id="path-19" x="0" y="0" width="250" height="143" rx="70"></rect>
+        <filter x="-2.5%" y="-25.5%" width="104.5%" height="158.0%" filterUnits="objectBoundingBox" id="filter-20">
             <feOffset dx="-5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="13" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.741176471   0 0 0 0 0.741176471   0 0 0 0 0.741176471  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -125,7 +126,7 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <filter x="-4.2%" y="-25.5%" width="107.5%" height="158.0%" filterUnits="objectBoundingBox" id="filter-20">
+        <filter x="-4.2%" y="-25.5%" width="107.5%" height="158.0%" filterUnits="objectBoundingBox" id="filter-21">
             <feOffset dx="-5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="13" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.741176471   0 0 0 0 0.741176471   0 0 0 0 0.741176471  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -135,7 +136,7 @@
             </feMerge>
         </filter>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Bot-Trusty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="white" transform="translate(217.000000, 254.000000)">
             <g id="base">
                 <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
@@ -244,7 +245,16 @@
                 </text>
             </g>
         </g>
-        <g id="Boutons" filter="url(#filter-19)" transform="translate(835.000000, 1992.000000)">
+        <g id="Oui" transform="translate(387.000000, 2128.000000)">
+            <g id="Rectangle-2">
+                <use fill="#0084FF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                <rect stroke="#0274B3" stroke-width="7" x="3.5" y="3.5" width="243" height="136" rx="68"></rect>
+            </g>
+            <text id="Oui-!" font-family="AvenirNext-Regular, Avenir Next" font-size="60" font-weight="normal" fill="#FFFFFF">
+                <tspan x="58" y="92">Oui !</tspan>
+            </text>
+        </g>
+        <g id="Boutons" filter="url(#filter-20)" transform="translate(835.000000, 1992.000000)">
             <g id="Oui">
                 <rect id="Rectangle-2" stroke="#0084FF" stroke-width="2" x="1" y="1" width="248" height="141" rx="70"></rect>
                 <text id="Oui-!" font-family="AvenirNext-Regular, Avenir Next" font-size="60" font-weight="normal" fill="#009AFF">
@@ -272,7 +282,7 @@
                 </text>
             </g>
         </g>
-        <g id="Boutons" filter="url(#filter-20)" transform="translate(835.000000, 2527.000000)">
+        <g id="Boutons" filter="url(#filter-21)" transform="translate(835.000000, 2527.000000)">
             <g id="Linkedin">
                 <rect id="Rectangle-2" stroke="#0084FF" stroke-width="2" x="1" y="1" width="497" height="141" rx="70"></rect>
                 <text id="LinkedIn" font-family="AvenirNext-Regular, Avenir Next" font-size="60" font-weight="normal" fill="#009AFF">
