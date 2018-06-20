@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100%" height="100%" viewBox="0 0 2827 2836" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2827px" height="2836px" viewBox="0 0 2827 2836" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>Slice</title>
     <desc>Created with Sketch.</desc>
@@ -33,7 +33,7 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <filter x="-3.0%" y="-10.0%" width="105.9%" height="121.0%" filterUnits="objectBoundingBox" id="filter-7">
+        <filter x="-3.0%" y="-9.0%" width="105.9%" height="118.9%" filterUnits="objectBoundingBox" id="filter-7">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -64,9 +64,6 @@
             </mask>
             <use id="mask" stroke="#979797" fill="#EBEBEB" xlink:href="#path-4"></use>
             <path d="M316,54 L922,54 L922,74 C922,111.555363 891.555363,142 854,142 L384,142 C346.444637,142 316,111.555363 316,74 L316,54 Z" id="bar" stroke="#979797" fill="#FFFFFF"></path>
-            <text id="15:07" font-family="AvenirNext-Regular, Avenir Next" font-size="288" font-weight="normal" fill="#FFFFFF">
-                <tspan x="241.22" y="511">15:07</tspan>
-            </text>
         </g>
         <g id="Notification-proposition" filter="url(#filter-6)" transform="translate(854.000000, 646.000000)">
             <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="1548" height="438" rx="61"></rect>
@@ -91,7 +88,7 @@
             </g>
         </g>
         <g id="Notification-valide" filter="url(#filter-7)" transform="translate(557.000000, 1014.000000)">
-            <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="1548" height="438" rx="61"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="1548" height="488" rx="61"></rect>
             <text id="il-y-a-1-semaine" font-family="AvenirNext-Regular, Avenir Next" font-size="64" font-weight="normal" fill="#808080">
                 <tspan x="1071.92" y="114">il y a 1 semaine</tspan>
             </text>
@@ -99,8 +96,9 @@
                 <tspan x="185.176" y="118">MESSENGER</tspan>
             </text>
             <text id="Hello-Julie,-j’ai-id" font-family="AvenirNext-Regular, Avenir Next" font-size="64" font-weight="normal" line-spacing="73" fill="#000000">
-                <tspan x="60" y="308.5">Hello Julie, j’ai identifié Jean Léro dans tes relation </tspan>
-                <tspan x="60" y="381.5">pour le poste de Data Analyst. Qu’en penses-tu ?</tspan>
+                <tspan x="60" y="308.5">Hello Julie, j’ai identifié Jean Léro dans tes </tspan>
+                <tspan x="60" y="381.5">relations pour le poste de Data Analyst. Qu’en </tspan>
+                <tspan x="60" y="454.5">penses-tu ?</tspan>
             </text>
             <text id="Trusty" font-family="AvenirNext-Bold, Avenir Next" font-size="64" font-weight="bold" fill="#000000">
                 <tspan x="60.316" y="223">Trusty</tspan>
