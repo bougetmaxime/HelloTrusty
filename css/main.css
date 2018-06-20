@@ -309,6 +309,56 @@ div.container.center.mb-5.py-2 .row span {
   font-size: 20px;
   font-weight: bold;
 }
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgb(53, 218, 172);
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    #header-area .contents{
+      margin:0px;
+    }
+    #header-area .contents h1 {
+      font-size: 33px;
+      font-weight: 600;
+    }
+  }
+  @media (min-width: 480px) and (max-width: 768px) {
+  
+    #header-area .contents{
+      margin:0px;
+    }
+    #header-area .contents h1 {
+      font-size: 33px;
+      font-weight: 600;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 480px) {
+  
+      #header-area .contents{
+        margin:10px;
+      }
+      #header-area .contents h1 {
+      font-size: 27px;
+      line-height: 40px;
+    }
+      #header-area .contents p {
+        font-size: 13px;
+        line-height: 20px;
+        }
+        #header-area .contents span{
+        font-size: 15px;
+      }
+    
+  }
+
 /* ==========================================================================
    why-Coopt Section Style
    ========================================================================== */
@@ -332,6 +382,16 @@ div.container.center.mb-5.py-2 .row span {
     border-color: rgba(62, 57, 107, 0.1);
 }
 
+@media (min-width: 300px) and (max-width: 768px) {
+    #why-Coopt .item-boxes{ 
+      min-width: 180px;
+      margin: 25px 5px;
+    }
+    #why-Coopt div{
+      padding: 0px 10px;
+    }
+    
+}
 
 /* ==========================================================================
    Features Section Style
@@ -369,6 +429,23 @@ div.container.center.mb-5.py-2 .row span {
   color: rgb(53, 218, 172);
 }
 
+@media (min-width: 300px) and (max-width: 480px) {
+      #section-features .section-header{
+        margin-bottom: 0px
+      }
+      #section-features .text .row {
+        padding-bottom: 0px;
+      }
+      #section-features #botImg{
+       height: 10%;
+      }
+      #section-features img {
+        padding-bottom: 20px;
+        object-position: left;
+      }
+}
+
+
 
 /* ==========================================================================
     Subscribe Style
@@ -392,28 +469,13 @@ div.container.center.mb-5.py-2 .row span {
 }
 #subscribe .row {
   margin-bottom: -40px;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
-#subscribe .col {
-  margin-left: -20px;
-  margin-right: -20px;
+ #subscribe #X {
+  margin-left:50px;
 }
 
-
-#subscribe form input {
-  background: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: none;
-  color: #999999;
-  height: 50px;
-  width: 100%;
-  position: center;
-}
-#subscribe form input:focus {
-  border: 1px solid rgb(53, 218, 172);
-}
 #subscribe .col-btn{
   text-align: center;
 }
@@ -426,7 +488,6 @@ div.container.center.mb-5.py-2 .row span {
 
   
   border-radius: 5px;
-  min-width: 150px;
   color: #fff;
   border: 2px solid rgb(53, 218, 172);
   background: rgba(53, 218, 172,0.9);
@@ -451,6 +512,93 @@ div.container.center.mb-5.py-2 .row span {
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ #subscribe {
+  background-position: -500px 320px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  } 
+  #subscribe .sub_btn {
+    border-radius: 4px;
+    min-width: 100px;
+    padding:0px 5px;
+    font-size: 20px;
+  }
+  #subscribe .sub_btn {
+    border-radius: 4px;
+    min-width: 100px;
+    padding:0px 5px;
+    font-size: 20px;
+  }
+  #subscribe #trusty-contact {
+    width: 120%;
+    height: 120%;
+  }
+  #subscribe #X {
+    margin-left:40px;
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  #subscribe {
+  background-position: -500px 320px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  } 
+  #subscribe .sub_btn {
+    border-radius: 4px;
+    min-width: 100px;
+    padding:0px 5px;
+    font-size: 20px;
+  }
+  #subscribe .sub_btn {
+    border-radius: 4px;
+    min-width: 100px;
+    padding:0px 5px;
+    font-size: 20px;
+  }
+  #subscribe #trusty-contact {
+    width: 120%;
+    height: 120%;
+  }
+  #subscribe #X {
+    margin-left:40px;
+    width: 60%;
+    height: 60%;
+  }
+
+}
+@media (min-width: 300px) and (max-width: 480px) {
+      #subscribe {
+  background-position:-700px 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  } 
+  #subscribe .sub_btn {
+    border-radius: 4px;
+    min-width: 100px;
+    padding:0px 5px;
+    font-size: 20px;
+  }
+  #subscribe .sub_btn {
+    border-radius: 4px;
+    min-width: 100px;
+    padding:0px 5px;
+    font-size: 20px;
+  }
+  #subscribe #trusty-contact {
+    width: 90%;
+    height: 90%;
+  }
+  #subscribe #X {
+    margin-left:0px;
+    margin-bottom:20px;
+    width: 25%;
+    height: 25%;
+  }
 }
 
 
@@ -550,52 +698,7 @@ div.container.center.mb-5.py-2 .row span {
 }
 
 
-/* ==========================================================================
-   Video promo Style
-   ========================================================================== */
-.video-promo {
-  background: url(../img/bg_2.jpg) fixed;
-  background-position: cover;
-  position: relative;
-}
-.video-promo .video-promo-content {
-  color: #fff;
-}
-.video-promo .video-promo-content h2 {
-  color: #fff;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-.video-promo .video-promo-content p {
-  margin-bottom: 30px;
-}
-.video-promo .video-promo-content .video-popup {
-  min-width: 120px;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  padding: 20px;
-  color: #fff;
-  display: inline-block;
-  font-size: 38px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-.video-promo .video-promo-content .video-popup:hover {
-  background: rgb(53, 218, 172);
-  border-color: rgb(53, 218, 172);
-  color: #fff;
-}
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: rgb(53, 218, 172);
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
+
 /* ==========================================================================
     Pricing Table
     ========================================================================== */
