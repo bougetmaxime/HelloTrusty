@@ -264,6 +264,7 @@ div.container.center.mb-5.py-2 .row span {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  z-index:1;
 }
 #header-area .contents {
   padding: 200px 0 300px;
@@ -464,6 +465,9 @@ div.container.center.mb-5.py-2 .row span {
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #333;
+  z-index:1;
+
 }
 #subscribe .section-header {
   margin-bottom: 0px;
