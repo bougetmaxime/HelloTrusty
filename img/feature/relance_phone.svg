@@ -24,6 +24,24 @@
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
         <rect id="path-4" x="110" y="78" width="281.25" height="609" rx="30"></rect>
+        <rect id="path-6" x="261" y="186" width="387" height="109.5" rx="15.25"></rect>
+        <filter x="-1.8%" y="-4.6%" width="103.6%" height="112.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="216" y="276" width="387" height="133" rx="15.25"></rect>
+        <filter x="-1.8%" y="-3.8%" width="103.6%" height="110.5%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-10" x="165" y="369" width="387" height="109.5" rx="15.25"></rect>
+        <filter x="-1.8%" y="-4.6%" width="103.6%" height="112.8%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
     </defs>
     <g id="relance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="base">
@@ -34,10 +52,13 @@
         <mask id="mask-5" fill="white">
             <use xlink:href="#path-4"></use>
         </mask>
-        <use id="mask" stroke="#979797" fill="#EBEBEB" xlink:href="#path-4"></use>
-        <path d="M175,77.5 L326.5,77.5 L326.5,82.5 C326.5,91.8888407 318.888841,99.5 309.5,99.5 L192,99.5 C182.611159,99.5 175,91.8888407 175,82.5 L175,77.5 Z" id="bar" stroke="#979797" fill="#FFFFFF"></path>
+        <use id="mask" fill="#EBEBEB" xlink:href="#path-4"></use>
+        <path d="M175,77.5 L326.5,77.5 L326.5,82.5 C326.5,91.8888407 318.888841,99.5 309.5,99.5 L192,99.5 C182.611159,99.5 175,91.8888407 175,82.5 L175,77.5 Z" id="bar" fill="#FFFFFF"></path>
         <rect id="Rectangle-3" fill="#FFFFFF" x="184.75" y="661.75" width="131.75" height="4.25" rx="2.125"></rect>
-        <rect id="Rectangle" fill="#D8D8D8" x="261" y="186" width="387" height="109.5" rx="15.25"></rect>
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+        </g>
         <text id="il-y-a-2-semaines" font-family="AvenirNext-Regular, Avenir Next" font-size="16" font-weight="normal" fill="#808080">
             <tspan x="517.428" y="216">il y a 2 semaines</tspan>
         </text>
@@ -53,7 +74,10 @@
         </text>
         <rect id="Rectangle-2" fill="#FFFFFF" x="277" y="197" width="27" height="24.5" rx="3.5"></rect>
         <path d="M290.625,201 C285.861536,201 282,204.575488 282,208.986111 C282,211.49934 283.254214,213.741095 285.214286,215.205002 L285.214286,218.25 L288.151018,216.638243 C288.934768,216.855146 289.765071,216.972222 290.625,216.972222 C295.388464,216.972222 299.25,213.396734 299.25,208.986111 C299.25,204.575488 295.388464,201 290.625,201 Z M291.482143,211.75463 L289.285714,209.412037 L285,211.75463 L289.714286,206.75 L291.964286,209.092593 L296.196429,206.75 L291.482143,211.75463 Z" id="Shape" fill="#0084FF" fill-rule="nonzero"></path>
-        <rect id="Rectangle" fill="#D8D8D8" x="216" y="276" width="387" height="133" rx="15.25"></rect>
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+        </g>
         <text id="il-y-a-1-semaines" font-family="AvenirNext-Regular, Avenir Next" font-size="16" font-weight="normal" fill="#808080">
             <tspan x="472.428" y="306">il y a 1 semaines</tspan>
         </text>
@@ -70,7 +94,10 @@
         </text>
         <rect id="Rectangle-2" fill="#FFFFFF" x="232" y="287" width="27" height="24.5" rx="3.5"></rect>
         <path d="M245.625,291 C240.861536,291 237,294.575488 237,298.986111 C237,301.49934 238.254214,303.741095 240.214286,305.205002 L240.214286,308.25 L243.151018,306.638243 C243.934768,306.855146 244.765071,306.972222 245.625,306.972222 C250.388464,306.972222 254.25,303.396734 254.25,298.986111 C254.25,294.575488 250.388464,291 245.625,291 Z M246.482143,301.75463 L244.285714,299.412037 L240,301.75463 L244.714286,296.75 L246.964286,299.092593 L251.196429,296.75 L246.482143,301.75463 Z" id="Shape" fill="#0084FF" fill-rule="nonzero"></path>
-        <rect id="Rectangle" fill="#D8D8D8" x="165" y="369" width="387" height="109.5" rx="15.25"></rect>
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-10"></use>
+        </g>
         <text id="il-y-a-2-semaines" font-family="AvenirNext-Regular, Avenir Next" font-size="16" font-weight="normal" fill="#808080">
             <tspan x="421.428" y="399">il y a 2 semaines</tspan>
         </text>
