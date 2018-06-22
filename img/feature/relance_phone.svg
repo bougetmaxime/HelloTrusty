@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="611px" height="725px" viewBox="0 0 611 725" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="664px" height="775px" viewBox="0 0 664 775" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>Slice</title>
     <desc>Created with Sketch.</desc>
@@ -53,7 +53,7 @@
         </filter>
     </defs>
     <g id="Relances" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="iphone" transform="translate(30.000000, 30.000000)">
+        <g id="iphone" transform="translate(96.000000, 64.000000)">
             <g id="base">
                 <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -66,7 +66,7 @@
             <path d="M79,13.5 L230.5,13.5 L230.5,18.5 C230.5,27.8888407 222.888841,35.5 213.5,35.5 L96,35.5 C86.6111593,35.5 79,27.8888407 79,18.5 L79,13.5 Z" id="bar" stroke="#979797" fill="#FFFFFF"></path>
             <rect id="Rectangle-3" fill="#FFFFFF" x="88.75" y="597.75" width="131.75" height="4.25" rx="2.125"></rect>
         </g>
-        <g id="Notif-1" filter="url(#filter-6)" transform="translate(195.000000, 152.000000)">
+        <g id="Notif-1" filter="url(#filter-6)" transform="translate(261.000000, 186.000000)">
             <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="387" height="109.5" rx="15.25"></rect>
             <text id="il-y-a-2-semaines" font-family="AvenirNext-Regular, Avenir Next" font-size="16" font-weight="normal" fill="#808080">
                 <tspan x="256.428" y="30">il y a 2 semaines</tspan>
@@ -84,7 +84,7 @@
             <rect id="Rectangle-2" fill="#FFFFFF" x="16" y="11" width="27" height="24.5" rx="3.5"></rect>
             <path d="M29.625,15 C24.8615357,15 21,18.5754884 21,22.9861111 C21,25.4993403 22.2542143,27.7410949 24.2142857,29.2050023 L24.2142857,32.25 L27.1510179,30.6382431 C27.9347679,30.8551458 28.7650714,30.9722222 29.625,30.9722222 C34.3884643,30.9722222 38.25,27.3967338 38.25,22.9861111 C38.25,18.5754884 34.3884643,15 29.625,15 Z M30.4821429,25.7546296 L28.2857143,23.412037 L24,25.7546296 L28.7142857,20.75 L30.9642857,23.0925926 L35.1964286,20.75 L30.4821429,25.7546296 Z" id="Shape" fill="#0084FF" fill-rule="nonzero"></path>
         </g>
-        <g id="Notif-2" filter="url(#filter-7)" transform="translate(150.000000, 242.000000)">
+        <g id="Notif-2" filter="url(#filter-7)" transform="translate(216.000000, 276.000000)">
             <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="387" height="133" rx="15.25"></rect>
             <text id="il-y-a-1-semaines" font-family="AvenirNext-Regular, Avenir Next" font-size="16" font-weight="normal" fill="#808080">
                 <tspan x="256.428" y="30">il y a 1 semaines</tspan>
@@ -103,7 +103,7 @@
             <rect id="Rectangle-2" fill="#FFFFFF" x="16" y="11" width="27" height="24.5" rx="3.5"></rect>
             <path d="M29.625,15 C24.8615357,15 21,18.5754884 21,22.9861111 C21,25.4993403 22.2542143,27.7410949 24.2142857,29.2050023 L24.2142857,32.25 L27.1510179,30.6382431 C27.9347679,30.8551458 28.7650714,30.9722222 29.625,30.9722222 C34.3884643,30.9722222 38.25,27.3967338 38.25,22.9861111 C38.25,18.5754884 34.3884643,15 29.625,15 Z M30.4821429,25.7546296 L28.2857143,23.412037 L24,25.7546296 L28.7142857,20.75 L30.9642857,23.0925926 L35.1964286,20.75 L30.4821429,25.7546296 Z" id="Shape" fill="#0084FF" fill-rule="nonzero"></path>
         </g>
-        <g id="Notif-3" filter="url(#filter-8)" transform="translate(99.000000, 335.000000)">
+        <g id="Notif-3" filter="url(#filter-8)" transform="translate(165.000000, 369.000000)">
             <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="387" height="109.5" rx="15.25"></rect>
             <text id="il-y-a-2-semaines" font-family="AvenirNext-Regular, Avenir Next" font-size="16" font-weight="normal" fill="#808080">
                 <tspan x="256.428" y="30">il y a 2 semaines</tspan>
