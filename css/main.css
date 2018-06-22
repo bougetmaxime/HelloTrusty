@@ -260,11 +260,10 @@ div.container.center.mb-5.py-2 .row span {
 #header-area {
   overflow: hidden;
   position: relative;
-  background-image: url(../img/photo/header-background.jpg);
+  background-image: url(../img/photo/header-background.jpg)!important;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  z-index:1;
 }
 #header-area .contents {
   padding: 200px 0 300px;
@@ -460,13 +459,13 @@ div.container.center.mb-5.py-2 .row span {
     Subscribe Style
     ========================================================================== */
 #subscribe{
-  background:url(../img/photo/background-contact-picture.jpg);
+  background:url(../img/photo/background-contact-picture.jpg)!important;
+  background-color: #333 !important;
   position: relative;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #333;
-  z-index:1;
+
 
 }
 #subscribe .section-header {
