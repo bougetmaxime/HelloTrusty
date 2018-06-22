@@ -429,6 +429,14 @@ div.container.center.mb-5.py-2 .row span {
   color: rgb(53, 218, 172);
 }
 
+#section-features .feature_image{
+  padding-bottom: 20px;
+  width: 100%
+}
+#section-features img{
+  width: 100%
+}
+
 @media (min-width: 300px) and (max-width: 480px) {
       #section-features .section-header{
         margin-bottom: 0px
@@ -441,8 +449,8 @@ div.container.center.mb-5.py-2 .row span {
       }
       #section-features img {
         padding-bottom: 20px;
-        object-position: left;
       }
+
 }
 
 
