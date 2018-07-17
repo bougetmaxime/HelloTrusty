@@ -91,16 +91,16 @@
         <g id="Group" transform="translate(251.000000, 100.000000)">
             <path d="M0,8.75344438 C0,3.91905054 3.91632815,0 8.75293461,0 L211.497065,0 C216.331178,0 220.25,3.90819848 220.25,8.75344438 L220.25,31.2465556 C220.25,36.0809495 216.333672,40 211.497065,40 L1.00633484,40 C0.450551453,40 0,39.5507812 0,38.9912248 L0,8.75344438 Z" id="BG" fill="#F1F0F0"></path>
             <text id="8:12:8:12" font-family="AvenirNext-Regular, Avenir Next" font-size="14.5" font-weight="normal" line-spacing="17" fill="#000000">
-                <tspan x="16" y="25.8409805">Je recherche un profil </tspan>
-                <tspan x="168.947812" y="25" font-family="AppleColorEmoji, Apple Color Emoji">🤔</tspan>
-                <tspan x="182.552" y="25.8409805">… </tspan>
+                <tspan x="16" y="25.8409805">Je recherche un profil</tspan>
+                <tspan x="165.322812" y="25" font-family="AppleColorEmoji, Apple Color Emoji">🤔</tspan>
+                <tspan x="178.927" y="25.8409805">… </tspan>
             </text>
         </g>
         <g id="Logo-Trusty" filter="url(#filter-6)" transform="translate(205.000000, 115.000000)">
             <circle id="Oval" fill="#50E3C2" cx="16.25" cy="16.25" r="16.25"></circle>
             <text id="Trusty." font-family="AvenirNext-Heavy, Avenir Next" font-size="6.25" font-weight="600" fill="#FCFCFC">
-                <tspan x="5" y="18">Trusty</tspan>
-                <tspan x="24.9375" y="18" font-size="7.5">.</tspan>
+                <tspan x="5" y="17">Trusty</tspan>
+                <tspan x="24.9375" y="17" font-size="7.5">.</tspan>
             </text>
         </g>
         <g id="Group" transform="translate(247.000000, 357.000000)">
@@ -113,8 +113,8 @@
         <g id="Logo-Trusty" filter="url(#filter-7)" transform="translate(204.000000, 391.000000)">
             <circle id="Oval" fill="#50E3C2" cx="16.25" cy="16.25" r="16.25"></circle>
             <text id="Trusty." font-family="AvenirNext-Heavy, Avenir Next" font-size="6.25" font-weight="600" fill="#FCFCFC">
-                <tspan x="5" y="18">Trusty</tspan>
-                <tspan x="24.9375" y="18" font-size="7.5">.</tspan>
+                <tspan x="5" y="17">Trusty</tspan>
+                <tspan x="24.9375" y="17" font-size="7.5">.</tspan>
             </text>
         </g>
         <g id="Group" transform="translate(247.000000, 474.000000)">
@@ -128,22 +128,22 @@
         <g id="Logo-Trusty" filter="url(#filter-8)" transform="translate(204.000000, 522.000000)">
             <circle id="Oval" fill="#50E3C2" cx="16.25" cy="16.25" r="16.25"></circle>
             <text id="Trusty." font-family="AvenirNext-Heavy, Avenir Next" font-size="6.25" font-weight="600" fill="#FCFCFC">
-                <tspan x="5" y="18">Trusty</tspan>
-                <tspan x="24.9375" y="18" font-size="7.5">.</tspan>
+                <tspan x="5" y="17">Trusty</tspan>
+                <tspan x="24.9375" y="17" font-size="7.5">.</tspan>
             </text>
         </g>
         <g id="Group" transform="translate(247.000000, 605.000000)">
             <path d="M0,8.75223471 C0,3.91850895 3.91188283,0 8.74299939,0 L211.257001,0 C216.085626,0 220,3.92341614 220,8.75223471 L220,41.2477653 C220,46.081491 216.088117,50 211.257001,50 L1.00519257,50 C0.450040044,50 0,49.5524743 0,49.001231 L0,8.75223471 Z" id="BG" fill="#F1F0F0"></path>
             <text id="8:12:8:12" font-family="AvenirNext-Regular, Avenir Next" font-size="15" font-weight="normal" line-spacing="17" fill="#000000">
-                <tspan x="20" y="25">Par quel canal souhaites-tu </tspan>
-                <tspan x="20" y="42">coopter ?</tspan>
+                <tspan x="20" y="24">Par quel canal souhaites-tu </tspan>
+                <tspan x="20" y="41">coopter ?</tspan>
             </text>
         </g>
         <g id="Logo-Trusty" filter="url(#filter-9)" transform="translate(204.000000, 630.000000)">
             <circle id="Oval" fill="#50E3C2" cx="16.25" cy="16.25" r="16.25"></circle>
             <text id="Trusty." font-family="AvenirNext-Heavy, Avenir Next" font-size="6.25" font-weight="600" fill="#FCFCFC">
-                <tspan x="5" y="18">Trusty</tspan>
-                <tspan x="24.9375" y="18" font-size="7.5">.</tspan>
+                <tspan x="5" y="17">Trusty</tspan>
+                <tspan x="24.9375" y="17" font-size="7.5">.</tspan>
             </text>
         </g>
         <g id="woman" filter="url(#filter-10)" transform="translate(257.527216, 144.000000)" fill-rule="nonzero">
