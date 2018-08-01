@@ -280,6 +280,7 @@ div.container.center.mb-5.py-2 .row span {
 #header-area {
   overflow: hidden;
   position: relative;
+  z-index:2;
   background: url(https://source.unsplash.com/5f4hUdiJGIs);
   background-size:cover;
   background-position: center;
@@ -610,6 +611,10 @@ div.container.center.mb-5.py-2 .row span {
 @media (min-width: 300px) and (max-width: 480px) {
 
   #subscribe {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),url(https://source.unsplash.com/aH9p_lOKTZU/1000X1000);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
