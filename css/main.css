@@ -365,7 +365,14 @@ div.container.center.mb-5.py-2 .row span {
     }
   }
   @media (min-width: 300px) and (max-width: 480px) {
-  
+     #header-area{
+      background: linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.50)
+    )url(https://source.unsplash.com/5f4hUdiJGIs/700x1000);
+      background-position: center;
+    }
+
       #header-area .contents{
         margin:10px;
       }
