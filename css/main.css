@@ -278,7 +278,10 @@ div.container.center.mb-5.py-2 .row span {
    header Background
    ========================================================================== */
 #header-area {
-  background: url(https://source.unsplash.com/5f4hUdiJGIs);
+   background: linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.50)
+    ),url(https://source.unsplash.com/5f4hUdiJGIs);
   background-size:cover;
   position: relative;
   z-index:10;
@@ -322,13 +325,13 @@ div.container.center.mb-5.py-2 .row span {
 #header-area .banner_bottom_btn i:hover {
   color: rgb(53, 218, 172);
 }
-.overlay-2 {
-  background: rgba(0, 0, 0, 0.7) !important;
-}
 #header-area .contents span{
   color: rgb(53, 218, 172);
   font-size: 20px;
   font-weight: bold;
+}
+.overlay-2 {
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 .overlay {
   position: absolute;
