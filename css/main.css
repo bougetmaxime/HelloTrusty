@@ -278,16 +278,13 @@ div.container.center.mb-5.py-2 .row span {
    header Background
    ========================================================================== */
 #header-area {
-  overflow: hidden;
-  position: relative;
-  z-index:2;
   background: url(https://source.unsplash.com/5f4hUdiJGIs);
   background-size:cover;
+  position: relative;
+  z-index:10;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-  
 }
 #header-area .contents {
   padding: 200px 0 300px;
@@ -497,8 +494,6 @@ div.container.center.mb-5.py-2 .row span {
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-
 }
 #subscribe .section-header {
   margin-bottom: 0px;
@@ -614,7 +609,7 @@ div.container.center.mb-5.py-2 .row span {
     background: linear-gradient(
       rgba(0, 0, 0, 0.45), 
       rgba(0, 0, 0, 0.45)
-    ),url(https://source.unsplash.com/aH9p_lOKTZU/1000X1000);
+    ),url(https://source.unsplash.com/aH9p_lOKTZU/800X800);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
