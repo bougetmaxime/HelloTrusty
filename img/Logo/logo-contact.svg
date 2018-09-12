@@ -3,8 +3,14 @@
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>Trusty</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Logo-contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AvenirNext-Heavy, Avenir Next" font-size="120" font-weight="600">
+    <defs> <style type="text/css">
+        @font-face {
+  font-family: 'AvenirHeavyMod';
+  src: "../fonts/Avenir_Next_Heavy.ttf"; 
+}
+</style>
+</defs>
+    <g id="Logo-contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AvenirHeavyMod" font-size="120" font-weight="600">
         <g id="logo-contact" transform="translate(10.000000, 1.000000)">
             <text id="Trusty" fill="#FFFFFF">
                 <tspan x="0" y="120">Trusty</tspan>
