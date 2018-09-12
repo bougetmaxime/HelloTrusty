@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,600,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+@font-face {
+  font-family: 'AvenirNext-Heavy, Avenir Next';
+  src: "../fonts/Avenir_Next.ttc"; 
+}
+
+
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -22,6 +28,8 @@ a {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
+
 .btn {
   font-size: 14px;
   padding: 10px 30px;
@@ -80,9 +88,9 @@ a {
 }
 h1,
 h2{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 ul {
@@ -113,7 +121,7 @@ a:not([href]):not([tabindex]):hover {
   text-align: center;
 }
 .section-header .section-title {
-  font-size: 42px;
+  font-size: 35px;
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 100;
@@ -179,6 +187,15 @@ div.container.center.mb-5.py-2 .row span {
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
+#brand_title_nav{
+  font-family: avenir next;
+  font-weight: 750;
+  color: white;
+}
+#brand_trusty_dot_nav{
+  color: #55E1C1;
+}
+
 .bg-faded {
   background-color: #fff;
 }
@@ -295,7 +312,7 @@ div.container.center.mb-5.py-2 .row span {
 }
 #header-area .contents h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
   margin-bottom: 25px;
   line-height: 70px;
@@ -510,24 +527,30 @@ div.container.center.mb-5.py-2 .row span {
 }
 #subscribe h2 {
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 #subscribe .row {
   margin-bottom: -40px;
   margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-#subscribe #trusty-contact{
-  margin-right: auto;
-  margin-left: auto;
+#brand_title_sub{
+  font-family: avenir next;
+  font-weight: 750;
+  color: white;
+  font-size: 120px;
 }
-#subscribe #btn-contact{
-  margin-right: auto;
-  margin-left: auto;
+#brand_trusty_dot_sub{
+  color: #55E1C1;
+}
+#trusty-contact{
+  width: 100%;
+  height: 100%;
 }
 #subscribe .sub_btn {
   display:inline-block;
@@ -579,15 +602,17 @@ div.container.center.mb-5.py-2 .row span {
     font-weight:600;
     width: 250px;
   }
-  #subscribe #trusty-contact{
-    margin-right: 0px;
+  #brand_title_sub{
+    font-size: 100px;
+    margin-left: -20px;
   }
-  #subscribe #trusty-contact img{
-    width:100%;
-    height: 100%;
-  }
+
+  
 }
 @media (min-width: 480px) and (max-width: 767px) {
+  #subscribe h2 {
+    font-size: 20px;
+  }
   #subscribe {
   background-position: top;
   background-repeat: no-repeat;
@@ -608,13 +633,19 @@ div.container.center.mb-5.py-2 .row span {
     font-size: 20px;
     font-weight:600;
   }
-  #subscribe #trusty-contact img{
-    width: 100%;
-    height: 100%;
+  #subscribe .row {  
+    flex-direction: column;
   }
+  #brand_title_sub{
+    font-size: 90px;
+    text-align: center;
+  }
+  
 }
 @media (min-width: 300px) and (max-width: 480px) {
-
+  #subscribe h2 {
+    font-size: 20px;
+  }
   #subscribe {
     background: linear-gradient(
       rgba(0, 0, 0, 0.45), 
@@ -640,10 +671,14 @@ div.container.center.mb-5.py-2 .row span {
     font-size: 17px;
     padding:0px 10px;
   }
-  #subscribe #trusty-contact img{
-    width: 100%;
-    height: 100%;
+  #subscribe .row {  
+    flex-direction: column;
   }
+  #brand_title_sub{
+    font-size: 80px;
+    text-align: center;
+  }
+  
 }
 
 
