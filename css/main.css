@@ -680,6 +680,25 @@ div.container.center.mb-5.py-2 .row span {
   }
   
 }
+/* ==========================================================================
+   Integration Section Style
+   ========================================================================== */
+#integration {
+  background: #f2f2f2;
+}
+.integration-item {
+  text-align: center;
+}
+.integration-item-wk img {
+  width: 100%;
+  border-radius: 80%;
+}
+.integration-item-slack img {
+  width: 100%;
+}
+.integration-item-messenger img {
+  width: 100%;
+}
 
 
 /* ==========================================================================
