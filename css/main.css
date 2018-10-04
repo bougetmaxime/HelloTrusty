@@ -686,18 +686,24 @@ div.container.center.mb-5.py-2 .row span {
 #integration {
   background: #f2f2f2;
 }
-.integration-item {
+.integration-item-wk {
+  text-align: center;
+}
+.integration-item-slack {
+  text-align: center;
+}
+.integration-item-messenger {
   text-align: center;
 }
 .integration-item-wk img {
-  width: 100%;
+  width: 70%;
   border-radius: 80%;
 }
 .integration-item-slack img {
   width: 100%;
 }
 .integration-item-messenger img {
-  width: 100%;
+  width: 30%;
 }
 
 
