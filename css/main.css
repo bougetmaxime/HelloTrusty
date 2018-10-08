@@ -203,11 +203,16 @@ div.container.center.mb-5.py-2 .row span {
   font-size: 20px;
   color: #fff;
 }
+.fixed-top{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
 .menu-bg {
-  background-color: #0d1838!important;
+  background-color: #0d1838f0!important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
-  padding: 9px;
+  border-bottom-right-radius:50px;
+  border-bottom-left-radius:50px;
 }
 .menu-bg .menu-button {
   top: 0;
