@@ -549,8 +549,9 @@ div.container.center.mb-5.py-2 .row span {
   color: #55E1C1;
 }
 #trusty-contact{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  padding-right:10%;
 }
 #subscribe .sub_btn {
   display:inline-block;
@@ -606,7 +607,7 @@ div.container.center.mb-5.py-2 .row span {
     font-size: 100px;
     margin-left: -20px;
   }
-
+  
   
 }
 @media (min-width: 480px) and (max-width: 767px) {
@@ -640,6 +641,9 @@ div.container.center.mb-5.py-2 .row span {
     font-size: 90px;
     text-align: center;
   }
+  #trusty-contact{
+  padding-right: 0px;
+}
   
 }
 @media (min-width: 300px) and (max-width: 480px) {
