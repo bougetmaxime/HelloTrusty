@@ -96,9 +96,15 @@
 
       $(window).on('scroll', function() {
           if ($(window).scrollTop() > 820) {
-              $('.fixed-top').addClass('menu-bg');
+              //$('.fixed-top').addClass('menu-bg');
+              $('.logo-menu').addClass('menu-hidden');
+              $('.menu-button').addClass('menu-hidden');
+             
           } else {
-              $('.fixed-top').removeClass('menu-bg');
+              //$('.fixed-top').removeClass('menu-bg');
+              $('.logo-menu').removeClass('menu-hidden');
+              $('.menu-button').removeClass('menu-hidden');
+
           }
       });
 
