@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="119px" height="45px" viewBox="0 0 119 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="123px" height="46px" viewBox="0 0 123 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>logo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica" font-size="50" font-weight="normal" letter-spacing="-0.59523809">
-        <g id="logo-contact" transform="translate(0.000000, -15.000000)" fill="#FFFFFF">
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SharpSansDisplayNo2TRIAL-Bold, Sharp Sans Display No2 TRIAL" font-size="50" font-weight="bold" letter-spacing="-0.59523809">
+        <g id="logo-contact" transform="translate(-5.000000, -15.000000)" fill="#FFFFFF">
             <text id="trusty">
-                <tspan x="0.1651088" y="49">trusty</tspan>
+                <tspan x="0.810714269" y="50">trusty</tspan>
             </text>
         </g>
     </g>
