@@ -95,7 +95,7 @@
       });
 
       $(window).on('scroll', function() {
-          if ($(window).scrollTop() > 820) {
+          if ($(window).scrollTop() > 830) {
               //$('.fixed-top').addClass('menu-bg');
               $('.logo-menu').addClass('menu-hidden');
               $('.menu-button').addClass('menu-hidden');
