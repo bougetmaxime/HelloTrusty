@@ -24,6 +24,9 @@
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4706879.js"></script>
     <!-- End of HubSpot Embed Code -->
+    <!-- Start of magnific-popup -->
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <!-- End of magnific-popup -->
 
     <title>Trusty - Boostez votre recrutement par cooptation</title>
 
@@ -34,7 +37,8 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/menu_sideslide.css">
-    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
 
   </head>
   <body>
@@ -268,7 +272,7 @@
         </div>
         <div class="row justify-content-center" wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.5s">
           <div id='trusty-contact'class="col-md-6 align-self-center">>
-            <img src="img/Logo/logo-contact.svg" alt="Smart Scan" class="mx-auto mb-2 px-10">
+            <img id='logo_contact' src="img/Logo/logo-contact.svg" alt="Smart Scan" class="mx-auto mb-2 px-10">
                 <!--<h1 id="brand_title_sub">Trusty<span id="brand_trusty_dot_sub">.</span></h1>-->
                 <!--<img src="img/Logo/logo-contact.svg" alt="Smart Scan" >-->
           </div>
@@ -320,35 +324,65 @@
 
     <!-- Footer Section Start -->
     <footer>          
-      <div class="container">
+      <div id="footer_site" class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
               <ul>
-                <li class="linkedin"><a href="https://www.linkedin.com/company/hellotrusty/"><i class="fa fa-linkedin"></i></a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/company/hellotrusty/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
               </ul>
             </div>
             <div class="site-info container wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
               <div class="row">
                 <div class='col'>
-                  <p>hellotrusty.io &copy; 2018 Trusty. All Rights Reserved.</p> 
+                  <p>hellotrusty.io &copy; 2019 Trusty. All Rights Reserved.</p> 
                 </div>
                 <div class='col'>
                   <p>
-                    <a  class="popup-modal" rel="nofollow" href="#cond-Util">Conditions d'utilisation</a>, <a  class="popup-modal" rel="nofollow" href="#pol-Conf">Politique de confidentialité</a>
+                    <a  class="popup-modal" rel="nofollow" href="#ment_legal">Mentions légales</a>, <a  class="popup-modal" rel="nofollow" href="#cond-Util">Conditions d'utilisation</a>, <a  class="popup-modal" rel="nofollow" href="#pol-Conf">Politique de confidentialité</a>
+                                <div id="ment_legal" class=" CondUtil white-popup-block mfp-hide">
+                                  <h1>Mentions légales</h1>
+                                  <p>Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du Site l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>
+                                  <h1>Edition du site</h1>
+                                  <p>Le site hellotrusty.io est édité par la société Trusty SAS à capital variable, immatriculée au Registre du commerce et des sociétés de PAris sous le n° 842 078 370 et dont le siège social est situé 45 boulevard Beaumarchais 75003 Paris (Siret n° 842 078 370 00017).</p>
+                                  <h1>Responsable de publication</h1>
+                                  <p>Monsieur Maxime BOUGET</p>
+                                  <h1>Hébergeur</h1>
+                                  <p>OVH – Siège Social 2 rue Kellermann - 59100 ROUBAIX - Tél : 08 203 203 63 / n° indigo (0,118 €/min).</p>
+                                  <h1>Nous contacter</h1>
+                                  <p>Par email : contact@hellotrusty.io 
+                                  Par courrier : TRUSTY SAS, 45 boulevard Beaumarchais 75003 Paris</p>
+
+                                  <div class="sub_btn col-md-4 align-self-center">
+                                      <a class="popup-modal-dismiss " href="#">Fermer 
+                                      </a> 
+                                  </div>
+                                </div>
+
                                 <div id="cond-Util" class=" CondUtil white-popup-block mfp-hide">
                                   <h1>Conditions d'utilisation</h1>
-                                  <p>You won't be able to dismiss this by usual means (escape or
-                                    click button), but you can close it programatically based on
-                                    user choices or actions.</p>
+                                  <p>Sauf mention contraire explicite, les documents publiés ou téléchargeables sur hellotrusty.io sont sous licence TRUSTY qui autorise leur reproduction et leur modification sous réserve :
+                                  <ul>
+                                    <li> - De respect de leur paternité. Le nom de hellotrusty.io et un lien vers le site hellotrusty.io doivent être mentionnés.</li>
+                                    <li> - D’absence d’utilisation commerciale. Vous n’avez pas le droit d’utiliser cette création à des fins commerciales.</li>  
+                                    <li> - De partage des conditions initiales à l’Identique. Si vous modifiez, transformez ou adaptez cette création, vous n’avez le droit de distribuer la création qui en résulte que sous un contrat identique à celui-ci.</li>
+                                  </ul> 
+                                  </p>
                                   <p><a class="popup-modal-dismiss" href="#">Fermer</a></p>
                                 </div>
                    
                                 <div id="pol-Conf" class=" CondUtil white-popup-block mfp-hide">
-                                  <h1>Politique de confidentialité</h1>
-                                  <p>You won't be able to dismiss this by usual means (escape or
-                                    click button), but you can close it programatically based on
-                                    user choices or actions.</p>
+
+                                  <h1>Votre vie privée</h1>
+                                  <p>Les données personnelles collectées par hellotrusty.io sont uniquement destinées à un usage interne. En aucun cas ces données ne seront cédées ou vendues à des tiers. Elles ne sont collectées que :
+                                    <ul>
+                                      <li> - Dans le cadre de la prise de contact pour une demande de démo.</li>
+                                      <li>  - Dans le cadre des statistiques de fréquentation du site.</li>
+                                    </ul> 
+                                  </p>
+
+                                  <h1>Cookies</h1>
+                                  <p>Les données personnelles collectées par hellotrusty.io sont uniquement destinées à un usage interne. En aucun cas ces données ne seront cédLe site hellostrusty.io peut être amené à vous demander l’acceptation des cookies pour des besoins de statistiques et d’affichage. Un cookies est une information déposée sur votre disque dur par le serveur du site que vous visitez. Il contient plusieurs données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède pour lire et enregistrer des informations. Certaines parties de ce site ne peuvent être fonctionnelles sans l’acceptation de cookies.</p>
                                   <p><a class="popup-modal-dismiss" href="#">Fermer</a></p>
                                 </div>
 

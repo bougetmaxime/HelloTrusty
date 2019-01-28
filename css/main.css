@@ -380,6 +380,13 @@ div.container.center.mb-5.py-2 .row span {
     }
   }
   @media (min-width: 480px) and (max-width: 768px) {
+    #header-area{
+      background: linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.50)
+    )url(https://source.unsplash.com/5f4hUdiJGIs/700x1000);
+      background-position: center;
+    }
   
     #header-area .contents{
       margin:0px;
@@ -561,6 +568,7 @@ div.container.center.mb-5.py-2 .row span {
   height: 90%;
   padding-right:10%;
 }
+
 #subscribe .sub_btn {
   display:inline-block;
   overflow:hidden;
@@ -689,6 +697,10 @@ div.container.center.mb-5.py-2 .row span {
   #brand_title_sub{
     font-size: 80px;
     text-align: center;
+  }
+  
+  #logo_contact{
+    width:100%;
   }
   
 }

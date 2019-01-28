@@ -112,13 +112,13 @@
 
   /* Nivo Lightbox
   ========================================================*/
-  jQuery(document).ready(function( $ ) {    
+  /*jQuery(document).ready(function( $ ) {    
      $('.lightbox').nivoLightbox({
       effect: 'fadeScale',
       keyboardNav: true,
     });
 
-  });
+  });*/
 
   /* stellar js
   ========================================================*/
