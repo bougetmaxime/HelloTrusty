@@ -113,7 +113,13 @@ a:not([href]):not([tabindex]):hover {
   color: rgb(53, 218, 172);
 }
 .section {
-  padding: 70px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 100px 0px;
+  min-height:100vh;
 }
 .section-header {
   color: #fff;
@@ -130,13 +136,6 @@ a:not([href]):not([tabindex]):hover {
 }
 .section-title span {
   color: rgb(53, 218, 172);
-}
-
-div.container.center.mb-5.py-2 .row span {
-  color: rgb(53, 218, 172);
-  font-size: 15px;
-  font-weight: bold;
-
 }
 
 .section-header .section-subtitle {
@@ -303,20 +302,16 @@ div.container.center.mb-5.py-2 .row span {
    header Background
    ========================================================================== */
 #header-area {
-   background: linear-gradient(
-      rgba(0, 0, 0, 0.50), 
-      rgba(0, 0, 0, 0.50)
-    ),url(https://source.unsplash.com/5f4hUdiJGIs);
+  background:content-box linear-gradient(  rgb(35, 212, 131), #55E1C1);
   background-size:cover;
   position: relative;
-  z-index:10;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height:100vh
 }
 #header-area .contents {
-  padding: 200px 0 300px;
-  margin:50px;
+
 }
 #header-area .contents h1 {
   color: #fff;
@@ -427,22 +422,25 @@ div.container.center.mb-5.py-2 .row span {
    ========================================================================== */
 #why-Coopt div div h4{
   font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #why-Coopt {
   position: relative;
   background: #f2f2f2;
 }
+
 #why-Coopt .item-boxes{
-    flex: 0 0 23%;
-    max-width: 23%;
-    border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1), 0 2px 9px 0 rgba(62, 57, 107, 0.1);
-    border-color: rgba(62, 57, 107, 0.1);
+  flex: 0 0 23%;
+  max-width: 23%;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#why-Coopt .item-boxes:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1), 0 2px 9px 0 rgba(62, 57, 107, 0.1);
+  border-color: rgba(62, 57, 107, 0.1);
 }
 
 @media (min-width: 300px) and (max-width: 1040px) {
@@ -463,58 +461,65 @@ div.container.center.mb-5.py-2 .row span {
 /* ==========================================================================
    Features Section Style
    ========================================================================== */
-#section-features {
+#section-features-One {
   background: #fff;
 }
-#section-features .feature_image {
+#section-features-Two {
+  background:#f2f2f2;
 }
-#section-features .row {
+#section-features-Three {
+  background: #fff;
+}
+
+.features .feature_image {
+}
+.features .row {
   padding-bottom: 50px;
   padding-top: 50px;
 }
 
-#section-features .row .row{
+.features .row .row{
   padding-bottom: 20px;
   padding-top: 10px;
 }
-#section-features h3 {
+.features h3 {
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   letter-spacing: 1px;
 }
-#section-features h4 {
+.features h4 {
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-style: italic;
   letter-spacing: 1px;
   margin-bottom: 25px;
 }
-#section-features p {
+.features p {
   font-family: 'Lato', sans-serif;
 }
-#section-features span{
+.features span{
   color: rgb(53, 218, 172);
 }
 
-#section-features .feature_image{
+.features .feature_image{
   padding-bottom: 20px;
   width: 100%
 }
-#section-features img{
+.features img{
   width: 100%
 }
 
 @media (min-width: 300px) and (max-width: 480px) {
-      #section-features .section-header{
+  .features .section-header{
         margin-bottom: 0px
       }
-      #section-features .text .row {
+      .features .text .row {
         padding-bottom: 0px;
       }
-      #section-features #botImg{
+      .features #botImg{
        height: 10%;
       }
-      #section-features img {
+      .features img {
         padding-bottom: 20px;
       }
 
