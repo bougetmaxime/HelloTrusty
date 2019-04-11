@@ -49,16 +49,16 @@ a {
   outline: none;
 }
 .btn-common {
-  border: 2px solid rgb(53, 218, 172);
-  background-color: rgba(53, 218, 172,0.9);
+  border: 2px solid #0d1838;
+  background-color: #0d1838;
   position: relative;
   z-index: 1;
   border-radius: 4px;
 }
 .btn-common:hover {
-  color: rgb(53, 218, 172);
+  color: #0d1838;
   background-color: transparent;
-  border: 2px solid rgb(53, 218, 172);
+  border: 2px solid #0d1838;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -203,7 +203,7 @@ a:not([href]):not([tabindex]):hover {
   border-bottom-right-radius:50px;
   border-bottom-left-radius:50px;
 }
-.menu-hidden{
+.hidden{
   display: none
 }
 .menu-bg .menu-button {
@@ -401,7 +401,7 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
   background: #f2f2f2;
 }
-.list-why-Coopt{ 
+.elements-why-Coopt{ 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -440,6 +440,41 @@ a:not([href]):not([tabindex]):hover {
     
 }
 
+/* ==========================================================================
+   Boutton platform
+   ========================================================================== */
+#boutton_platform{
+  z-index: 99999;
+  position: fixed;
+  right: 1vw;
+  top: 50vh;
+}
+#boutton_platform div{
+  min-height: 120px;
+  border-radius: 20px;
+  background:rgb(85, 225, 193);
+}
+.btn:active, .btn.active {
+  outline: 0;
+  background: rgba(255, 255, 255, 1);
+  border-width: -3px;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+  
+}
+#boutton_platform .btn {
+  display: block;
+  height: 5vh;
+  padding: 20px 10px;
+  border-width: 1px;
+  border-radius: 20px;
+
+}
+#boutton_platform img {
+  height: 100%;
+  display: block;
+  pointer-events: none;
+  position: contain;
+}
 /* ==========================================================================
    Features Section Style
    ========================================================================== */
@@ -490,6 +525,7 @@ a:not([href]):not([tabindex]):hover {
   width: 100%
 }
 
+  
 
 
 @media (min-width: 300px) and (max-width: 480px) {
@@ -507,23 +543,83 @@ a:not([href]):not([tabindex]):hover {
       }
 
 }
+/* ==========================================================================
+   SUM UP 
+   ========================================================================== */
+  #assets{
+    color:white;
+    background: #0d1838!important;
+    
+  }
+  #assets .section-header{
+    padding: 0px 20%;
+  }
+  .elements-assets{
+    padding: 0px 20%;
 
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .item-asset{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 240px;
+    text-align: center;
+    padding: 0px 20px;
+    margin: 30px 0px;
 
+  }
+/* ==========================================================================
+   Integration Section Style
+   ========================================================================== */
+   #integration {
+    background: #f2f2f2;
+  }
+  .elements-integration{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .integration-item-wk {
+    text-align: center;
+  }
+  .integration-item-slack {
+    text-align: center;
+  }
+  .integration-item-messenger {
+    text-align: center;
+  }
+  .integration-item-wk img {
+    width: 70%;
+    border-radius: 80%;
+  }
+  .integration-item-slack img {
+    width: 100%;
+  }
+  .integration-item-messenger img {
+    width: 30%;
+  }
+  
 
 /* ==========================================================================
     Subscribe Style
     ========================================================================== */
 #subscribe{
- background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ),url(https://source.unsplash.com/mcLpPD36-2k);
-  background-size:cover;
+  background: content-box linear-gradient( rgb(35, 212, 131), #55E1C1);
+  background-size: cover;
   position: relative;
-  z-index: 2;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0px;
+  min-height: 70vh;
 }
 #subscribe .section-header {
   margin-bottom: 0px;
@@ -534,6 +630,9 @@ a:not([href]):not([tabindex]):hover {
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1px;
+}
+#subscribe span {
+ color:#0d1838
 }
 #subscribe .row {
   margin-bottom: -40px;
@@ -564,11 +663,11 @@ a:not([href]):not([tabindex]):hover {
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 
-  
+
   border-radius: 7px;
   color: #fff;
-  border: 2px solid rgb(53, 218, 172);
-  background: rgba(53, 218, 172,0.9);
+  border: 2px solid #0d1838;
+  background: #0d1838;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -584,9 +683,9 @@ a:not([href]):not([tabindex]):hover {
 }
 
 #subscribe .sub_btn:hover {
-  color: rgb(53, 218, 172);
+  color: #0d1838;
   background-color: transparent;
-  border: 2px solid rgb(53, 218, 172);
+  border: 2px solid #0d1838;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -654,16 +753,6 @@ a:not([href]):not([tabindex]):hover {
   #subscribe h2 {
     font-size: 20px;
   }
-  #subscribe {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ),url(https://source.unsplash.com/mcLpPD36-2k/800X800);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    padding-bottom: 100px;
-  } 
 
   #subscribe .container{
    margin: 0 auto;
@@ -691,31 +780,6 @@ a:not([href]):not([tabindex]):hover {
     width:100%;
   }
   
-}
-/* ==========================================================================
-   Integration Section Style
-   ========================================================================== */
-#integration {
-  background: #f2f2f2;
-}
-.integration-item-wk {
-  text-align: center;
-}
-.integration-item-slack {
-  text-align: center;
-}
-.integration-item-messenger {
-  text-align: center;
-}
-.integration-item-wk img {
-  width: 70%;
-  border-radius: 80%;
-}
-.integration-item-slack img {
-  width: 100%;
-}
-.integration-item-messenger img {
-  width: 30%;
 }
 
 

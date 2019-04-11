@@ -97,16 +97,34 @@
       $(window).on('scroll', function() {
           if ($(window).scrollTop() > 830) {
               //$('.fixed-top').addClass('menu-bg');
-              $('.logo-menu').addClass('menu-hidden');
-              $('.menu-button').addClass('menu-hidden');
+              $('.logo-menu').addClass('hidden');
+              $('.menu-button').addClass('hidden');
              
           } else {
               //$('.fixed-top').removeClass('menu-bg');
-              $('.logo-menu').removeClass('menu-hidden');
-              $('.menu-button').removeClass('menu-hidden');
+              $('.logo-menu').removeClass('hidden');
+              $('.menu-button').removeClass('hidden');
 
           }
       });
+
+  });
+
+  /* Boutton platform 
+ ========================================================*/
+  jQuery(document).ready(function() {
+    $(window).scroll(function() {
+      var currentHeight = $(window).scrollTop();
+      var topDivFeature = $("#section-features-One").offset().top;
+      var bottomDivFeature = $("#section-features-Three").offset().top;
+  
+      if (currentHeight > topDivFeature && currentHeight < bottomDivFeature) {
+          $('#boutton_platform').removeClass( 'hidden' );
+
+      }else  {
+          $('#boutton_platform').addClass( 'hidden' );
+      }
+    });
 
   });
 
