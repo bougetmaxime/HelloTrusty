@@ -126,7 +126,34 @@
       }
     });
 
+    $('#boutton_platform .btn').click(function(){
+      setTimeout(function(){ 
+        if(document.getElementById('messenger-label').classList.contains('active')){
+          document.getElementById("slider-boutton").style.top = "0%"
+
+          document.getElementById("saasImg").src = "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
+          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1538996711/website/Bot.svg"
+          document.getElementById("relanceImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996722/website/relance.svg"
+
+        } else if(document.getElementById('slack-label').classList.contains('active')){
+          document.getElementById("slider-boutton").style.top = "51%";
+
+          document.getElementById("saasImg").src = "https://source.unsplash.com/random/1600x900"
+          document.getElementById("botImg").src = "https://source.unsplash.com/random/1600x900"
+          document.getElementById("relanceImg").src =   "https://source.unsplash.com/random/1600x900"
+
+        }
+       }, 100);
+        
+
+  
+
+    });
+      
+
   });
+
+
 
   /* Nivo Lightbox
   ========================================================*/

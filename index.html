@@ -102,9 +102,9 @@
               <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"><span>90 %</span> des recruteurs déclarent que la cooptation est leur moyen le plus efficace de recrutement, et vous ?</p>
               <a class="btn btn-common wow fadeInUp typeform-share button" href="https://hellotrusty.typeform.com/to/glmbCb" data-mode="drawer_right"data-submit-close-delay="2" target="_blank" data-wow-duration="1000ms" data-wow-delay="400ms"> Découvrez l'outil </a>    
           </div>
-          <div class ="header-img">
-            Image
-          </div>
+          
+          <img class ="header-img" src="https://source.unsplash.com/fY8Jr4iuPQM" alt="Trusty">
+          
       </div> 
       
      
@@ -147,14 +147,15 @@
 
     <div id="boutton_platform" class="align-self-center hidden">
       <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
-          <label class="btn btn-secondary active">
-            <input type="radio" name="options" id="messenger" autocomplete="off" checked>
-              <img src="img/messenger/messenger_logo_color.svg" alt="Messenger" >
-          </label>
-          <label class="btn btn-secondary">
-            <input type="radio" name="options" id="slack" autocomplete="off"> 
-            <img src="img/slack/slack_icon.svg" alt="slack">
-          </label>
+        <span id="slider-boutton" class="slider"></span>
+        <label id="messenger-label" class="btn btn-secondary active">
+          <input type="radio" name="options" id="messenger" autocomplete="off" checked>
+            <img src="img/messenger/messenger_logo_color.svg" alt="Messenger" >
+        </label>
+        <label id="slack-label" class="btn btn-secondary">
+          <input type="radio" name="options" id="slack" autocomplete="off"> 
+          <img src="img/slack/slack_icon.svg" alt="slack">
+        </label>
       </div>
     </div>
 
@@ -163,8 +164,8 @@
         
       <div class="container ">
         <div class="elements_feature align-items-center justify-content-center">
-          <div id='saasImg'class="feature_image wow fadeInLeft animated" data-wow-offset="10">
-            <img src="https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg" alt="Smart Scan">
+          <div class="feature_image wow fadeInLeft animated" data-wow-offset="10">
+            <img id='saasImg' src="https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg" alt="Smart Scan">
           </div>
           <div class="feature_content wow fadeInLeft animated" data-wow-offset="10">
             <div class="text">
@@ -234,8 +235,8 @@
               </div> 
             </div>
           </div>
-          <div id='botImg'class="feature_image wow fadeInLeft animated" data-wow-offset="10">
-            <img src="https://res.cloudinary.com/trusty/image/upload/v1538996711/website/Bot.svg" alt="Smart Scan" class="mx-auto mb-2">
+          <div class="feature_image wow fadeInLeft animated" data-wow-offset="10">
+            <img id='botImg' src="https://res.cloudinary.com/trusty/image/upload/v1538996711/website/Bot.svg" alt="Smart Scan" class="mx-auto mb-2">
           </div>
         </div>
       </div>
@@ -244,8 +245,8 @@
     <section id="section-features-Three" class="section features" >
       <div class="container">
         <div class="elements_feature align-items-center justify-content-center px-3">
-          <div id='relanceImg' class="feature_image wow fadeInLeft animated" data-wow-offset="10">
-            <img src="https://res.cloudinary.com/trusty/image/upload/v1538996722/website/relance.svg" alt="Smart Scan" class="mx-auto mb-2">
+          <div  class="feature_image wow fadeInLeft animated" data-wow-offset="10">
+            <img id='relanceImg' src="https://res.cloudinary.com/trusty/image/upload/v1538996722/website/relance.svg" alt="Smart Scan" class="mx-auto mb-2">
           </div>
           <div class="feature_content wow fadeInLeft animated" data-wow-offset="10">
             <div class="text">
@@ -389,17 +390,8 @@
         <div class="section-header">          
           <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Faîtes de la <span>cooptation</span> un pilier stratégique de votre recrutement</h2>
         </div>
-        <div class="row justify-content-center" wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.5s">
-          <!--<div id='trusty-contact'class="col-md-6 align-self-center">>
-            <img id='logo_contact' src="img/Logo/logo-contact.svg" alt="Smart Scan" class="mx-auto mb-2 px-10">
-          </div>-->
-          <!--
-          <div id='btn-contact'class="col-md-4 align-self-center">
-              <a class="sub_btn typeform-share button" href="https://hellotrusty.typeform.com/to/glmbCb" data-mode="drawer_right"data-submit-close-delay="2" target="_blank">Découvrez l'outil 
-              </a> 
-          </div>
-          -->
-          <a class="btn-common sub_btn typeform-share button" href="https://hellotrusty.typeform.com/to/glmbCb" data-mode="drawer_right"data-submit-close-delay="2" target="_blank">Découvrez l'outil 
+        <div class="elements-subscribe " wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.5s">
+          <a class="btn btn-common typeform-share button" href="https://hellotrusty.typeform.com/to/glmbCb" data-mode="drawer_right"data-submit-close-delay="2" target="_blank">Découvrez l'outil 
           </a> 
         </div>
       </div>

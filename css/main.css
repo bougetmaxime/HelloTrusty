@@ -18,7 +18,7 @@ body {
 }
 p {
   font-size: 14px;
-  line-height: 26px;
+  line-height: 14px;
 }
 a:hover,
 a:focus {
@@ -172,7 +172,7 @@ a:not([href]):not([tabindex]):hover {
   text-align: center;
 }
 .fixed-top{
-  padding: 3% 5vw 0 5vw
+  padding: 4% 5vw 0 5vw 
 }
 .close-button {
   cursor: pointer;
@@ -255,25 +255,26 @@ a:not([href]):not([tabindex]):hover {
 }
 .header-content{
   margin: auto 0;
+  padding:0 7vw;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  
 }
 .header-text{
   width: 50%;
 }
 .header-img{
-  background:red;
-  height: 100px;
-  width : 200px
+  max-width:40vw;
+  padding:40px 0;
+  padding-left:40px;
 }
 #header-area h1 {
   color: #fff;
   margin-bottom: 20px;
-  line-height: 70px;
+  line-height: 40px;
 }
 #header-area p {
   font-size: 15px;
@@ -310,7 +311,9 @@ a:not([href]):not([tabindex]):hover {
     }
   }
   @media (min-width: 300px) and (max-width: 480px) {
-     
+    .header-img{
+      display:none 
+    }
    
       #header-area h1 {
       font-size: 27px;
@@ -329,11 +332,6 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    why-Coopt Section Style
    ========================================================================== */
-#why-Coopt div div h4{
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-}
 
 #why-Coopt {
   position: relative;
@@ -343,20 +341,37 @@ a:not([href]):not([tabindex]):hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  -webkit-box-align: start;
+  align-items: start;
   flex-wrap: wrap;
 }
 #why-Coopt .item-boxes{
-  margin: 0 0.5%;
   border-radius: 30px;
-  padding: 20px 20px;
-  height: 100%;
-  max-width: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  padding: 10px 15px;
 }
 #why-Coopt .item-boxes:hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1), 0 2px 9px 0 rgba(62, 57, 107, 0.1);
   border-color: rgba(62, 57, 107, 0.1);
 }
+#why-Coopt .item-boxes img{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 100px;
+}
+
 #why-Coopt .lines {
   margin: auto;
   width: 70px;
@@ -364,15 +379,25 @@ a:not([href]):not([tabindex]):hover {
   border-top: 1px solid #cccaca;
   margin-top: 15px;
 }
+#why-Coopt span{
+  color:rgb(85, 225, 193);
+  font-weight: 400;
+}
+
+#why-Coopt h4{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+#why-Coopt p{
+  font-size: 12px;
+  line-height: 22px;
+}
 
 @media (min-width: 300px) and (max-width: 1040px) {
-    #why-Coopt .item-boxes{
-    }
-    #why-Coopt div{
-      padding: 0px 10px;
-    }
+   
 
-    .item-boxes h4 {
+  #why-Coopt h4 {
     font-size: 16px;
   }
     
@@ -388,31 +413,76 @@ a:not([href]):not([tabindex]):hover {
   top: 50vh;
 }
 #boutton_platform div{
-  min-height: 120px;
   border-radius: 20px;
   background:rgb(85, 225, 193);
-}
-.btn:active, .btn.active {
-  outline: 0;
-  background: rgba(255, 255, 255, 1);
-  border-width: -3px;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,0);
-  
+
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
 }
 #boutton_platform .btn {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+
   height: 5vh;
   padding: 20px 10px;
   border-width: 1px;
   border-radius: 20px;
-
 }
+/*#boutton_platform .btn:active, #boutton_platform .btn.active {
+  outline: 0;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+  
+}*/
+
+#boutton_platform .btn:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+  -webkit-transform: translateY(26px);
+  -ms-transform: translateY(26px);
+  transform: translateY(1200px);
+}
+
 #boutton_platform img {
-  height: 100%;
+  height: 20px;
   display: block;
   pointer-events: none;
-  position: contain;
+  
 }
+#slider-boutton {
+  position: absolute;
+  cursor: pointer;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  border-radius: 20px;
+  width:100%;
+  height:50%;
+  background-color:rgba(255, 255, 255, 0.4);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.btn:active, .btn.active{
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
 /* ==========================================================================
    Features Section Style
    ========================================================================== */
@@ -432,13 +502,19 @@ a:not([href]):not([tabindex]):hover {
 #section-features-Three {
   background: #fff;
 }
-
 .features .feature_image {
   max-width: 600px;
-
+  order: -1;
 }
-.features .feature_image_content {
-  display: flex;
+.features img{
+  height:100%;
+  max-height: 70vh;
+  max-width: 60vh;
+}
+.feature_content{
+  min-width: 200px;
+  width : 50%
+
 }
 
 .features h3 {
@@ -460,7 +536,7 @@ a:not([href]):not([tabindex]):hover {
   color: rgb(53, 218, 172);
 }
 .features img{
-  width: 100%
+  height: 100%
 }
 
   
@@ -489,11 +565,10 @@ a:not([href]):not([tabindex]):hover {
     background: #0d1838!important;
   }
   #assets .section-header{
-    padding: 0px 20%;
+    padding: 0px 10%;
   }
   .elements-assets{
-    padding: 0px 20%;
-
+    padding: 0px 10%;
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -545,7 +620,6 @@ a:not([href]):not([tabindex]):hover {
   }
   .elements-integration{ 
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -584,8 +658,14 @@ a:not([href]):not([tabindex]):hover {
   padding: 0px;
   min-height: 70vh;
 }
-#subscribe .section-header {
-  margin-bottom: 0px;
+.elements-subscribe{
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
 }
 #subscribe h2 {
   color: #ffffff;
@@ -597,29 +677,12 @@ a:not([href]):not([tabindex]):hover {
 #subscribe span {
  color:#0d1838
 }
-#subscribe .row {
-  margin-bottom: -40px;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-#brand_title_sub{
-  font-family: avenir next;
-  font-weight: 750;
-  color: white;
-  font-size: 120px;
-}
-#brand_trusty_dot_sub{
-  color: #55E1C1;
-}
-#trusty-contact{
-  width: 90%;
-  height: 90%;
-  padding-right:10%;
-}
 
 #subscribe .sub_btn {
+
+  margin: 20px 10px;
+  text-transform: uppercase;
+
   display:inline-block;
   overflow:hidden;
   text-overflow:ellipsis;
@@ -668,9 +731,6 @@ a:not([href]):not([tabindex]):hover {
   background-attachment: fixed;
   padding-bottom: 100px;
   } 
-  #subscribe .container{
-   margin: 0 auto;
-  }
   #subscribe #btn-contact {
     height: 50px;
     line-height: 50px;
@@ -699,9 +759,6 @@ a:not([href]):not([tabindex]):hover {
     font-size: 20px;
   }
 
-  #subscribe .container{
-   margin: 0 auto;
-  }
   #subscribe #btn-contact {
     height: 50px;
     line-height: 50px;
