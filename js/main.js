@@ -119,24 +119,26 @@
       var bottomDivFeature = $("#section-features-Three").offset().top;
   
       if (currentHeight > topDivFeature && currentHeight < bottomDivFeature) {
-          $('#boutton_platform').removeClass( 'hidden' );
+          $('#boutton_side_platform').removeClass( 'hidden' );
 
       }else  {
-          $('#boutton_platform').addClass( 'hidden' );
+          $('#boutton_side_platform').addClass( 'hidden' );
       }
     });
 
-    $('#boutton_platform .btn').click(function(){
+    $('#boutton_side_platform .btn').click(function(){
       setTimeout(function(){ 
-        if(document.getElementById('messenger-label').classList.contains('active')){
-          document.getElementById("slider-boutton").style.top = "0%"
+        if(document.getElementById('messenger-side-label').classList.contains('active')){
+          document.getElementById("slider_side_boutton").style.top = "0%"
+          document.getElementById("slider_section_boutton").style.left = "0%"
 
           document.getElementById("saasImg").src = "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
           document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1538996711/website/Bot.svg"
           document.getElementById("relanceImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996722/website/relance.svg"
 
-        } else if(document.getElementById('slack-label').classList.contains('active')){
-          document.getElementById("slider-boutton").style.top = "51%";
+        } else if(document.getElementById('slack-side-label').classList.contains('active')){
+          document.getElementById("slider_side_boutton").style.top = "51%";
+          document.getElementById("slider_section_boutton").style.left = "51%";
 
           document.getElementById("saasImg").src = "https://source.unsplash.com/random/1600x900"
           document.getElementById("botImg").src = "https://source.unsplash.com/random/1600x900"
@@ -144,12 +146,30 @@
 
         }
        }, 100);
-        
-
-  
-
     });
-      
+
+    
+    $('#boutton_section_platform .btn').click(function(){
+      setTimeout(function(){ 
+        if(document.getElementById('messenger-section-label').classList.contains('active')){
+          document.getElementById("slider_side_boutton").style.top = "0%"
+          document.getElementById("slider_section_boutton").style.left = "0%"
+
+          document.getElementById("saasImg").src = "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
+          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1538996711/website/Bot.svg"
+          document.getElementById("relanceImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996722/website/relance.svg"
+
+        } else if(document.getElementById('slack-section-label').classList.contains('active')){
+          document.getElementById("slider_side_boutton").style.top = "51%";
+          document.getElementById("slider_section_boutton").style.left = "51%";
+
+          document.getElementById("saasImg").src = "https://source.unsplash.com/random/1600x900"
+          document.getElementById("botImg").src = "https://source.unsplash.com/random/1600x900"
+          document.getElementById("relanceImg").src =   "https://source.unsplash.com/random/1600x900"
+
+        }
+       }, 100);
+    });
 
   });
 

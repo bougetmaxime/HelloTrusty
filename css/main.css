@@ -407,26 +407,26 @@ a:not([href]):not([tabindex]):hover {
 }
 
 /* ==========================================================================
-   Boutton platform
+   Boutton  platform GENERAL
    ========================================================================== */
-#boutton_platform{
-  z-index: 99999;
-  position: fixed;
-  right: 1vw;
-  top: 50vh;
-}
-#boutton_platform div{
+.boutton_platform div{
   border-radius: 20px;
   background:rgb(85, 225, 193);
-
   display: flex;
-  flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
-#boutton_platform .btn {
+.slider{
+  position: absolute;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color:rgba(255, 255, 255, 0.4);
+  -webkit-transition: .6s;
+  transition: .6s
+}
+.boutton_platform .btn {
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
@@ -439,14 +439,38 @@ a:not([href]):not([tabindex]):hover {
   border-width: 1px;
   border-radius: 20px;
 }
-/*#boutton_platform .btn:active, #boutton_platform .btn.active {
-  outline: 0;
-  background: rgba(255, 255, 255, 1);
-  box-shadow: inset 0 3px 5px rgba(0,0,0,0);
-  
-}*/
 
-#boutton_platform .btn:before {
+.btn:active, .btn.active{
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+.btn.active.focus, .btn.focus{
+outline: unset;
+outline-offset: unset;
+}
+
+/* ==========================================================================
+   Boutton Side platform
+   ========================================================================== */
+#boutton_side_platform{
+  z-index: 99999;
+  position: fixed;
+  right: 1vw;
+  top: 50vh;
+}
+#boutton_side_platform div{
+  flex-direction: column;
+}
+#slider_side_boutton {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  width:100%;
+  height:50%;
+}
+
+.boutton_platform .btn:before {
   position: absolute;
   content: "";
   height: 26px;
@@ -455,36 +479,72 @@ a:not([href]):not([tabindex]):hover {
   bottom: 4px;
   -webkit-transition: .4s;
   transition: .4s;
-
-  -webkit-transform: translateY(26px);
-  -ms-transform: translateY(26px);
-  transform: translateY(1200px);
 }
 
-#boutton_platform img {
+#boutton_side_platform img {
   height: 20px;
   display: block;
   pointer-events: none;
   
 }
-#slider-boutton {
-  position: absolute;
-  cursor: pointer;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
-  border-radius: 20px;
-  width:100%;
-  height:50%;
-  background-color:rgba(255, 255, 255, 0.4);
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-.btn:active, .btn.active{
-    -webkit-box-shadow: unset;
-    box-shadow: unset;
-}
+
+/* ==========================================================================
+   Section platform
+   ========================================================================== */
+
+   #section-platform {
+     color : white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 30px 0px;
+    min-height:30vh;
+    background: #0d1838!important;
+  }
+  #section-platform span {
+
+    color: rgb(53, 218, 172);
+  }
+  .elements_platforms{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  #boutton_section_platform{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;  
+  }
+  #boutton_section_platform div{
+    flex-direction: row;
+    height: 10vh;
+    width: 30vh
+  }
+  #slider_section_boutton{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width:50%;
+    height:100%;
+  }
+  #boutton_section_platform img {
+    height: 5vh;
+    display: block;
+    pointer-events: none;
+  }
+
+
 
 /* ==========================================================================
    Features Section Style
