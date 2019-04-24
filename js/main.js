@@ -116,7 +116,7 @@
     $(window).scroll(function() {
       var currentHeight = $(window).scrollTop();
       var topDivFeature = $("#section-features-One").offset().top;
-      var bottomDivFeature = $("#section-features-Three").offset().top;
+      var bottomDivFeature = $("#section-features-Five").offset().top;
   
       if (currentHeight > topDivFeature && currentHeight < bottomDivFeature) {
           $('#boutton_side_platform').removeClass( 'hidden' );
