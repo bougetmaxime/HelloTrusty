@@ -139,7 +139,7 @@
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"
 
         } else if(document.getElementById('slack-side-label').classList.contains('active')){
-          document.getElementById("slider_side_boutton").style.top = "51%";
+          document.getElementById("slider_side_boutton").style.top = "50%";
           document.getElementById("slider_section_boutton").style.left = "50%";
 
           document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"
@@ -166,7 +166,7 @@
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"
 
         } else if(document.getElementById('slack-section-label').classList.contains('active')){
-          document.getElementById("slider_side_boutton").style.top = "51%";
+          document.getElementById("slider_side_boutton").style.top = "50%";
           document.getElementById("slider_section_boutton").style.left = "50%";
 
           document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"

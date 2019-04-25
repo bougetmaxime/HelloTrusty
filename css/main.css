@@ -447,13 +447,22 @@ a:not([href]):not([tabindex]):hover {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: space-evenly;
+
+  background:rgb(85, 225, 193);
+  border: 3px solid rgb(85, 225, 193);
+
+  border-radius: 20px;
+  
 }
 .slider{
+  background-color: whitesmoke;
+  border-radius: 17px;
+
   position: absolute;
   cursor: pointer;
   border-radius: 20px;
-  -webkit-transition: .6s;
-  transition: .6s
+  -webkit-transition: .2s;
+  transition: .2s
 }
 .boutton_platform .btn {
   display: flex;
@@ -489,7 +498,6 @@ outline-offset: unset;
 }
 #boutton_side_platform div{
   flex-direction: column;
-  background:rgb(85, 225, 193);
 }
 #slider_side_boutton {
   top: 0%;
@@ -500,9 +508,6 @@ outline-offset: unset;
   height:50%;
 }
 
-#boutton_side_platform .slider{
-  background-color:rgba(255, 255, 255, 0.4);
-}
 
 .boutton_platform .btn:before {
   position: absolute;
@@ -561,13 +566,8 @@ outline-offset: unset;
     flex-direction: row;
     height: 5vh;
     width: 15vh;
-    background:rgb(85, 225, 193);
-    border: 3px solid rgb(85, 225, 193);
     border-radius: 20px;
-  }
-  #section-platform .slider{
-    background-color: whitesmoke;
-    border-radius: 17px;
+    
   }
   #slider_section_boutton{
     top: 0%;
