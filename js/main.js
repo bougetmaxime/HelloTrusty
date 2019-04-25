@@ -116,7 +116,7 @@
     $(window).scroll(function() {
       var currentHeight = $(window).scrollTop();
       var topDivFeature = $("#section-features-One").offset().top;
-      var bottomDivFeature = $("#section-features-Five").offset().top;
+      var bottomDivFeature = $("#section-features-Four").offset().top;
   
       if (currentHeight > topDivFeature && currentHeight < bottomDivFeature) {
           $('#boutton_side_platform').removeClass( 'hidden' );
@@ -145,7 +145,7 @@
           document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"
           document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598223/website/01_-_Qui_coopter_slack.svg"
           document.getElementById("saasImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
-          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg"
+          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598778/website/02_-_Relance_slack.svg"
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"
 
         }
@@ -162,7 +162,7 @@
           document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"
           document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg"
           document.getElementById("saasImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
-          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598778/website/02_-_Relance_slack.svg"
+          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg"
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg"
 
         } else if(document.getElementById('slack-section-label').classList.contains('active')){
@@ -181,7 +181,24 @@
 
   });
 
+  /* Preload Image
+ ========================================================*/
+  function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+    });
+  } 
+  preload([
+    'https://res.cloudinary.com/trusty/image/upload/v1555607501/website/00_-_Algo_Trusty.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1555598223/website/01_-_Qui_coopter_slack.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1555598778/website/02_-_Relance_slack.svg'
 
+  ]);
 
   /* Nivo Lightbox
   ========================================================*/
