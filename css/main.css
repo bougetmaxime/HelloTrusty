@@ -626,20 +626,15 @@ outline-offset: unset;
   /*min-width: 200px;*/
   width : 50%;
 }
-
-.features h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  letter-spacing: 1px;
+.features h1 {
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 40px;
 }
 .features h4 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-}
-.features p {
-  font-family: 'Montserrat', sans-serif;
+  line-height: 22px;
+  margin-bottom: 30px;
 }
 .features span{
   color: rgb(53, 218, 172);
