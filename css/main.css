@@ -270,7 +270,6 @@ a:not([href]):not([tabindex]):hover {
 .header-content{
   margin: auto 0;
   padding:0 7vw;
-  margin-top: 15vh;
   position: relative;
   display: flex;
   flex-direction: row;
