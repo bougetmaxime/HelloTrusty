@@ -165,7 +165,7 @@
           document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg"
           document.getElementById("saasImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
           document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg"
-          document.getElementById("animationImg").src = "https://source.unsplash.com/fY8Jr4iuPQM"
+          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556213218/website/05_-_Gamification.svg"
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556203182/website/03_-_Publipostage.svg"
 
         } else if(document.getElementById('slack-section-label').classList.contains('active')){
