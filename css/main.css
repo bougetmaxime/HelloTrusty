@@ -260,7 +260,9 @@ a:not([href]):not([tabindex]):hover {
    header Background
    ========================================================================== */
 #header-area {
-  background:content-box linear-gradient(  rgb(35, 212, 131), #55E1C1);
+  /*background:content-box linear-gradient(  rgb(35, 212, 131), #55E1C1);*/
+  background-image: url("https://res.cloudinary.com/trusty/image/upload/v1556216319/website/XX_-_Landing.svg"); 
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: start ;
