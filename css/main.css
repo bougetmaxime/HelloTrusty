@@ -76,10 +76,11 @@ a {
 }
 .btn-common:hover {
   color: white;
-  background-color: transparent;
+  background-color: #3dc39a;
+  border: 2px solid #3dc39a;
   transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 
 h1,
@@ -281,7 +282,7 @@ a:not([href]):not([tabindex]):hover {
 
 }
 .header-text_subtitle{
-  margin-bottom: 10vh;
+  margin-bottom: 40px;
 }
 
 #header-area h1 {
@@ -617,9 +618,8 @@ outline-offset: unset;
   background: #fff;
 }
 .features .feature_image {
-  max-width: 600px;
   padding: 0px 2%;
- 
+  width : 50%;
 }
 
 .feature_content{
