@@ -132,22 +132,22 @@
           document.getElementById("slider_side_boutton").style.top = "0%"
           document.getElementById("slider_section_boutton").style.left = "0%"
 
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556200318/website/00_-_Algo_Trusty.svg"
+          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg"
           document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg"
           document.getElementById("saasImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
           document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg"
-          document.getElementById("animationImg").src = "https://source.unsplash.com/fY8Jr4iuPQM"
+          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556213218/website/05_-_Gamification.svg"
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg"
 
         } else if(document.getElementById('slack-side-label').classList.contains('active')){
           document.getElementById("slider_side_boutton").style.top = "50%";
           document.getElementById("slider_section_boutton").style.left = "50%";
 
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556200318/website/00_-_Algo_Trusty.svg"
-          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg"
+          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201008/website/01_-_Qui_coopter_slack.svg"
+          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269688/website/04_-_Offres_slack.svg"
           document.getElementById("saasImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
           document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201002/website/02_-_Relance_slack.svg"
-          document.getElementById("animationImg").src = "https://source.unsplash.com/fY8Jr4iuPQM"
+          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269687/website/05_-_Gamification_slack.svg"
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg"
 
         }
@@ -161,7 +161,7 @@
           document.getElementById("slider_side_boutton").style.top = "0%"
           document.getElementById("slider_section_boutton").style.left = "0%"
 
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556200318/website/00_-_Algo_Trusty.svg"
+          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg"
           document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg"
           document.getElementById("saasImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
           document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg"
@@ -172,11 +172,11 @@
           document.getElementById("slider_side_boutton").style.top = "50%";
           document.getElementById("slider_section_boutton").style.left = "50%";
 
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556200318/website/00_-_Algo_Trusty.svg"
-          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg"
+          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201008/website/01_-_Qui_coopter_slack.svg"
+          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269688/website/04_-_Offres_slack.svg"
           document.getElementById("saasImg").src =   "https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg"
           document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201002/website/02_-_Relance_slack.svg"
-          document.getElementById("animationImg").src = "https://source.unsplash.com/fY8Jr4iuPQM"
+          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269687/website/05_-_Gamification_slack.svg"
           document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg"
 
         }
@@ -195,9 +195,9 @@
     });
   } 
   preload([
-    'https://res.cloudinary.com/trusty/image/upload/v1556200318/website/00_-_Algo_Trusty.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1538996727/website/SaaS.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1556213218/website/05_-_Gamification.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1556201002/website/02_-_Relance_slack.svg',
