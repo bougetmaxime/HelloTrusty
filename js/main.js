@@ -133,11 +133,11 @@
           document.getElementById("slider_section_boutton").style.left = "0%"
 
          
-          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg"
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg"
-          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg"
-          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556213218/website/05_-_Gamification.svg"
-          document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg"
+          document.getElementById("botImg").src = "img/feature/messenger/04 - Offres messenger.svg"
+          document.getElementById("algoImg").src = "img/feature/messenger/01 - Qui coopter messenger.svg"
+          document.getElementById("relanceImg").src = "img/feature/messenger/02 - Relance messenger.svg"
+          document.getElementById("animationImg").src = "img/feature/messenger/05 - Gamification messenger.svg"
+          document.getElementById("publipostageImg").src = "img/feature/03 - Publipostage.svg"
         
           document.getElementById("text_feature_bot").outerHTML = "<h4 id='text_feature_bot'>Le bot Messenger Trusty est <span>votre assistant personnel de cooptation </span>: accédez à toutes les offres de votre entreprise et cooptez les meilleurs talents de votre réseau.<br><br>Le tout le plus simplement du monde, directement depuis Messenger et en 2 clics ✌️</h4>"
 
@@ -146,11 +146,11 @@
           document.getElementById("slider_section_boutton").style.left = "50%";
 
           
-          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269688/website/04_-_Offres_slack.svg"
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201008/website/01_-_Qui_coopter_slack.svg"
-          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201002/website/02_-_Relance_slack.svg"
-          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269687/website/05_-_Gamification_slack.svg"
-          document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg"
+          document.getElementById("botImg").src = "img/feature/slack/04 - Offres slack.svg"
+          document.getElementById("algoImg").src = "img/feature/slack/01 - Qui coopter slack.svg"
+          document.getElementById("relanceImg").src = "img/feature/slack/02 - Relance slack.svg"
+          document.getElementById("animationImg").src = "img/feature/slack/05 - Gamification slack.svg"
+          document.getElementById("publipostageImg").src = "img/feature/03 - Publipostage.svg"
 
           document.getElementById("text_feature_bot").outerHTML = "<h4 id='text_feature_bot'>Le slackbot /trusty est <span>votre assistant personnel de cooptation</span> : accédez à toutes les offres de votre entreprise et cooptez les meilleurs talents de votre réseau.<br><br>Le tout le plus simplement du monde, directement depuis Slack et en 2 clics ✌️</h4>"
 
@@ -166,11 +166,11 @@
           document.getElementById("slider_section_boutton").style.left = "0%"
 
           
-          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg"
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg"
-          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg"
-          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556213218/website/05_-_Gamification.svg"
-          document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg"
+          document.getElementById("botImg").src = "img/feature/messenger/04 - Offres messenger.svg"
+          document.getElementById("algoImg").src = "img/feature/messenger/01 - Qui coopter messenger.svg"
+          document.getElementById("relanceImg").src = "img/feature/messenger/02 - Relance messenger.svg"
+          document.getElementById("animationImg").src = "img/feature/messenger/05 - Gamification messenger.svg"
+          document.getElementById("publipostageImg").src = "img/feature/03 - Publipostage.svg"
 
           document.getElementById("text_feature_bot").outerHTML = "<h4 id='text_feature_bot'>Le bot Messenger Trusty est <span>votre assistant personnel de cooptation </span>: accédez à toutes les offres de votre entreprise et cooptez les meilleurs talents de votre réseau.<br><br>Le tout le plus simplement du monde, directement depuis Messenger et en 2 clics ✌️</h4>"
 
@@ -179,11 +179,11 @@
           document.getElementById("slider_section_boutton").style.left = "50%";
 
           
-          document.getElementById("botImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269688/website/04_-_Offres_slack.svg"
-          document.getElementById("algoImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201008/website/01_-_Qui_coopter_slack.svg"
-          document.getElementById("relanceImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556201002/website/02_-_Relance_slack.svg"
-          document.getElementById("animationImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556269687/website/05_-_Gamification_slack.svg"
-          document.getElementById("publipostageImg").src = "https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg"
+          document.getElementById("botImg").src = "img/feature/slack/04 - Offres slack.svg"
+          document.getElementById("algoImg").src = "img/feature/slack/01 - Qui coopter slack.svg"
+          document.getElementById("relanceImg").src = "img/feature/slack/02 - Relance slack.svg"
+          document.getElementById("animationImg").src = "img/feature/slack/05 - Gamification slack.svg"
+          document.getElementById("publipostageImg").src = "img/feature/03 - Publipostage.svg"
 
           document.getElementById("text_feature_bot").outerHTML = "<h4 id='text_feature_bot'>Le slackbot /trusty est <span>votre assistant personnel de cooptation</span> : accédez à toutes les offres de votre entreprise et cooptez les meilleurs talents de votre réseau.<br><br>Le tout le plus simplement du monde, directement depuis Slack et en 2 clics ✌️</h4>"
         }
@@ -203,18 +203,19 @@
   } 
   preload([
      // SLACK
-    'https://res.cloudinary.com/trusty/image/upload/v1556269688/website/04_-_Offres_slack.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556201008/website/01_-_Qui_coopter_slack.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556201002/website/02_-_Relance_slack.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556269687/website/05_-_Gamification_slack.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg'
+    'img/feature/slack/04 - Offres slack.svg',
+    'img/feature/slack/01 - Qui coopter slack.svg',
+    'img/feature/slack/02 - Relance slack.svg',
+    'img/feature/slack/05 - Gamification slack.svg',
+    'img/feature/03 - Publipostage.svg'
+    
     
     // MESSENGER
-    /*'https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556213218/website/05_-_Gamification.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg'*/
+   /* 'img/feature/messenger/04 - Offres messenger.svg',
+    'img/feature/messenger/01 - Qui coopter messenger.svg',
+    'img/feature/messenger/02 - Relance messenger.svg',
+    'img/feature/messenger/05 - Gamification messenger.svg',
+    'img/feature/03 - Publipostage.svg'*/
 
 
   ]);
