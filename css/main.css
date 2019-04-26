@@ -585,6 +585,7 @@ outline-offset: unset;
   }
   #boutton_section_platform img {
     height: 2.5vh;
+    max-height: 25px;
     display: block;
     pointer-events: none;
   }
@@ -750,6 +751,13 @@ outline-offset: unset;
     height: 35px;
     image-rendering: -webkit-optimize-contrast;
   }
+@media (min-width: 300px) and (max-width: 480px) {
+  .section-header h1{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+}
 /* ==========================================================================
    Integration Section Style
    ========================================================================== */
