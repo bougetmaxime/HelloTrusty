@@ -279,7 +279,7 @@ a:not([href]):not([tabindex]):hover {
   align-items: center;
 }
 .header-text{
-  width: 65%;
+  width: 52%;
 
 }
 .header-text_subtitle{
@@ -664,18 +664,27 @@ outline-offset: unset;
 @media (min-width: 300px) and (max-width: 480px) {
   .features .section-header{
         margin-bottom: 0px
-      }
-      .features .text .row {
-        padding-bottom: 0px;
-      }
-      .features img {
-        padding-bottom: 20px;
-      }
-      .feature_content{
-        /*min-width: 200px;*/
-        padding: 6%;
-        width: 100%;
-      }
+  }
+  .features .text .row {
+    padding-bottom: 0px;
+  }
+  .features img {
+    padding-bottom: 20px;
+  }
+  .features .feature_image {
+    padding: 0px 2%;
+    width: 100%; 
+  }
+  .feature_content{
+    /*min-width: 200px;*/
+    padding: 6%;
+    width: 100%;
+  }
+  .features h1{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
 }
 
 /* ==========================================================================
