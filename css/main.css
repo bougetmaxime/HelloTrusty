@@ -784,6 +784,9 @@ outline-offset: unset;
     height: 35px;
     image-rendering: -webkit-optimize-contrast;
   }
+  .section-header h1{
+    margin-bottom: 40px;
+  }
 @media (min-width: 300px) and (max-width: 480px) {
   .section-header h1{
     font-size: 25px;
