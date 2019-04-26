@@ -138,7 +138,6 @@ a:not([href]):not([tabindex]):hover {
   font-weight: 400;
 }
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .section-header .section-title {
     font-size: 22px;
