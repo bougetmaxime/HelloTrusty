@@ -261,7 +261,7 @@ a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 #header-area {
   /*background:content-box linear-gradient(  rgb(35, 212, 131), #55E1C1);*/
-  background-image: url("https://res.cloudinary.com/trusty/image/upload/v1556216319/website/XX_-_Landing.svg"); 
+  background-image: url("https://res.cloudinary.com/trusty/image/upload/v1556276726/website/XX_-_Landing.svg"); 
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -650,7 +650,7 @@ outline-offset: unset;
 .text .pr-5{
   margin-bottom: 10px;
 }
-@media (max-width: 1200px){
+@media (max-width: 1000px){
   .elements_feature{
     display: flex;
     flex-direction: column;
@@ -659,7 +659,15 @@ outline-offset: unset;
   }
   .image_pair{
     order: -1;
-  };
+  }
+  .feature_content{
+  /*min-width: 200px;*/
+  width : 80%;
+  }
+  .features .feature_image {
+    padding: 0px 2%;
+    width: 80%; 
+  }
 }
 @media (min-width: 300px) and (max-width: 480px) {
   .features .section-header{
@@ -800,7 +808,7 @@ outline-offset: unset;
     Subscribe Style
     ========================================================================== */
 #subscribe{
-  background: content-box linear-gradient( rgb(35, 212, 131), #55E1C1);
+  background: content-box linear-gradient( rgb(142, 242, 180), #55E1C1);
   background-size: cover;
   position: relative;
   background-position: center;
