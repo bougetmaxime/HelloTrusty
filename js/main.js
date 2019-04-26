@@ -208,12 +208,13 @@
     'https://res.cloudinary.com/trusty/image/upload/v1556201002/website/02_-_Relance_slack.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1556269687/website/05_-_Gamification_slack.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg',
+    'https://res.cloudinary.com/trusty/image/upload/v1556211862/website/04_-_Offres.svg'
+    
     // MESSENGER
-    'https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg',
+    /*'https://res.cloudinary.com/trusty/image/upload/v1555599834/website/01_-_Qui_coopter_Messenger.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1555598700/website/02_-_Relance_messenger.svg',
     'https://res.cloudinary.com/trusty/image/upload/v1556213218/website/05_-_Gamification.svg',
-    'https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg'
+    'https://res.cloudinary.com/trusty/image/upload/v1556215366/website/03_-_Publipostage.svg'*/
 
 
   ]);
