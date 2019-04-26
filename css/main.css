@@ -462,7 +462,7 @@ a:not([href]):not([tabindex]):hover {
 
   position: absolute;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 17px;
   -webkit-transition: .2s;
   transition: .2s
 }
@@ -570,6 +570,8 @@ outline-offset: unset;
     width: 15vh;
     min-height: 30px;
     min-width:70px;
+    max-height: 50px;
+    max-width: 140px;
     border-radius: 20px;
     
   }
