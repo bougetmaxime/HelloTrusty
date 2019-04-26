@@ -324,20 +324,32 @@ a:not([href]):not([tabindex]):hover {
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 820px) and (max-width: 1023px) {
   
     
     #header-area  h1 {
-      font-size: 33px;
+      font-size: px;
       font-weight: 600;
     }
+    .header-content{
+      margin: auto 0;
+      padding:0 7vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
   }
-  @media (min-width: 480px) and (max-width: 768px) {
-    
-   
+  @media (min-width: 480px) and (max-width: 820px) {
     #header-area h1 {
-      font-size: 33px;
-      font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    #header-area p {
+      font-size: 13px;
+      line-height: 20px;
     }
   }
   @media (min-width: 300px) and (max-width: 480px) {
@@ -354,8 +366,8 @@ a:not([href]):not([tabindex]):hover {
         flex-direction: column;
     }
     #header-area h1 {
-        font-size: 27px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 35px;
         text-align: center;
     }
     #header-area p {
@@ -697,6 +709,27 @@ outline-offset: unset;
     margin-bottom: 40px;
   }
 }
+@media (min-width: 480px) and (max-width: 820px) {
+  .features .section-header{
+        margin-bottom: 0px
+  }
+  .features .text .row {
+    padding-bottom: 0px;
+  }
+  .features img {
+    padding-bottom: 20px;
+  }
+  .feature_content{
+    /*min-width: 200px;*/
+    padding: 6%;
+    width: 100%;
+  }
+  .features h1{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+}
 
 /* ==========================================================================
    SUM UP 
@@ -721,7 +754,7 @@ outline-offset: unset;
     flex-direction: column;
     -webkit-box-align: center;
     align-items: center;
-    width: 250px;
+    width: 275px;
     text-align: center;
     padding: 0px 35px;
     margin: 30px 0px;
