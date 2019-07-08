@@ -4,6 +4,10 @@
   font-family: 'AvenirNext-Heavy, Avenir Next';
   src: "../fonts/Avenir_Next.ttc"; 
 }
+@font-face {
+  font-family: 'AvenirNext-Medium, Avenir Next';
+  src: "../fonts/AvenirNext-Medium.ttf";
+}
 
 /*  'Lato', sans-serif;   */
 
