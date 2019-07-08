@@ -8,6 +8,11 @@
   font-family: 'AvenirNext-Medium, Avenir Next';
   src: "../fonts/AvenirNext-Medium.ttf";
 }
+@font-face {
+  font-family: 'AvenirNext-DemiBold, Avenir Next';
+  src: "../fonts/AvenirNext-DemiBold.ttf";
+}
+
 
 /*  'Lato', sans-serif;   */
 

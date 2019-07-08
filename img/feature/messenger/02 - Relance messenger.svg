@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="664px" height="775px" viewBox="0 0 664 775" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Slice</title>
-    <desc>Created with Sketch.</desc>
+   
     <defs>
+        <style type="text/css">
+        <![CDATA[
+                @font-face {
+                font-family: 'AvenirNext-Medium, Avenir Next';
+                src: "../fonts/AvenirNext-Medium.ttf";
+                }
+                @font-face {
+                font-family: 'AvenirNext-DemiBold, Avenir Next';
+                src: "../fonts/AvenirNext-DemiBold.ttf";
+                }
+                 @font-face {
+                font-family: 'AvenirNext-Regular, Avenir Next';
+                src: "../fonts/AvenirNext-Regular.ttf";
+                }
+                 font-family: 'AvenirNext-Bold, Avenir Next';
+                src: "../fonts/Avenir_Next.ttc";
+                }
+        ]]>
+    </style>
         <rect id="path-1" x="0" y="0" width="309.25" height="637" rx="40"></rect>
         <filter x="-48.8%" y="-21.5%" width="197.7%" height="147.4%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
